@@ -438,17 +438,10 @@ quit_activated (GSimpleAction *action,
 	GList *windows;
 	GtkWidget *window;
 
-	flags = g_application_get_flags (G_APPLICATION (self));
+	job_manager = gs_plugin_loader_get_job_manager (self->plugin_loader);
 
-	if (flags & G_APPLICATION_IS_SERVICE) {
-		windows = gtk_application_get_windows (GTK_APPLICATION (self));
-		if (windows) {
-			window = windows->data;
-			gtk_widget_set_visible (window, FALSE);
-		}
-
-		return;
-	}
+	g_debug ("Initiating shutdown of the job manager from %s()", G_STRFUNC);
+	gs_job_manager_shutdown_async (job_manager, NULL, job_manager_shutdown_ready_cb, g_object_ref (self));
 
 	job_manager = gs_plugin_loader_get_job_manager (self->plugin_loader);
 

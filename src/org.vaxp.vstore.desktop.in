@@ -12,6 +12,6 @@ Keywords=Updates;Upgrade;Sources;Repositories;Preferences;Install;Uninstall;Prog
 StartupNotify=true
 MimeType=x-scheme-handler/appstream;@apthandler@@snaphandler@
 X-GNOME-UsesNotifications=true
-DBusActivatable=true
+
 # Translators: Do NOT translate or transliterate this text (these are enum types)!
 X-Purism-FormFactor=Workstation;Mobile;
