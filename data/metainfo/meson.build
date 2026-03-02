@@ -1,6 +1,6 @@
 i18n.merge_file(
-  input: 'org.gnome.Software.metainfo.xml.in',
-  output: 'org.gnome.Software.metainfo.xml',
+  input: 'org.vaxp.vstore.metainfo.xml.in',
+  output: 'org.vaxp.vstore.metainfo.xml',
   type: 'xml',
   po_dir: join_paths(meson.project_source_root(), 'po'),
   install: true,
@@ -15,7 +15,7 @@ if get_option('tests') and appstream.version().version_compare('>=0.15.5')
               '--pedantic',
               '--no-net',
               '--explain',
-              'org.gnome.Software.metainfo.xml.in'],
+              'org.vaxp.vstore.metainfo.xml.in'],
         workdir : meson.current_source_dir(),
         suite: ['lib'],
     )

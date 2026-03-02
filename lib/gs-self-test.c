@@ -557,14 +557,14 @@ gs_app_unique_id_func (void)
 	g_autofree gchar *data_id = NULL;
 	const gchar *unique_id;
 
-	unique_id = "system/flatpak/gnome/org.gnome.Software/master";
+	unique_id = "system/flatpak/gnome/org.vaxp.vstore/master";
 	gs_app_set_from_unique_id (app, unique_id, AS_COMPONENT_KIND_DESKTOP_APP);
 	g_assert (GS_IS_APP (app));
 	g_assert_cmpint (gs_app_get_scope (app), ==, AS_COMPONENT_SCOPE_SYSTEM);
 	g_assert_cmpint (gs_app_get_bundle_kind (app), ==, AS_BUNDLE_KIND_FLATPAK);
 	g_assert_cmpstr (gs_app_get_origin (app), ==, "gnome");
 	g_assert_cmpint (gs_app_get_kind (app), ==, AS_COMPONENT_KIND_DESKTOP_APP);
-	g_assert_cmpstr (gs_app_get_id (app), ==, "org.gnome.Software");
+	g_assert_cmpstr (gs_app_get_id (app), ==, "org.vaxp.vstore");
 	g_assert_cmpstr (gs_app_get_branch (app), ==, "master");
 
 	/* test conversions from 6-part IDs */
@@ -575,7 +575,7 @@ gs_app_unique_id_func (void)
 	data_id = gs_utils_unique_id_compat_convert ("not a unique ID");
 	g_assert_null (data_id);
 
-	data_id = gs_utils_unique_id_compat_convert ("system/flatpak/gnome/desktop-app/org.gnome.Software/master");
+	data_id = gs_utils_unique_id_compat_convert ("system/flatpak/gnome/desktop-app/org.vaxp.vstore/master");
 	g_assert_cmpstr (data_id, ==, unique_id);
 	g_clear_pointer (&data_id, g_free);
 }

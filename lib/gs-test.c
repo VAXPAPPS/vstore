@@ -30,7 +30,7 @@ gs_test_init (gint *pargc,
 	g_setenv ("G_MESSAGES_DEBUG", "all", TRUE);
 
 	/* To not download ODRS data during the test */
-	settings = g_settings_new ("org.gnome.software");
+	settings = g_settings_new ("org.vaxp.vstore");
 	g_settings_set_string (settings, "review-server", "");
 
 	g_test_init (pargc, pargv,

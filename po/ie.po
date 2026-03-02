@@ -19,21 +19,21 @@ msgstr ""
 "X-Generator: Poedit 1.8.11\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../data/appdata/org.gnome.Software.appdata.xml.in.h:1
+#: ../data/appdata/org.vaxp.vstore.appdata.xml.in.h:1
 msgid "vstore"
 msgstr "Programmarium de GNOME"
 
-#: ../data/appdata/org.gnome.Software.appdata.xml.in.h:2
+#: ../data/appdata/org.vaxp.vstore.appdata.xml.in.h:2
 msgid "Application manager for GNOME"
 msgstr "Gerentiator de applicationes por GNOME"
 
-#: ../data/appdata/org.gnome.Software.appdata.xml.in.h:3
+#: ../data/appdata/org.vaxp.vstore.appdata.xml.in.h:3
 msgid ""
 "Software allows you to find and install new applications and system "
 "extensions and remove existing installed applications."
 msgstr ""
 
-#: ../data/appdata/org.gnome.Software.appdata.xml.in.h:4
+#: ../data/appdata/org.vaxp.vstore.appdata.xml.in.h:4
 msgid ""
 "vstore showcases featured and popular applications with useful "
 "descriptions and multiple screenshots per application. Applications can be "
@@ -41,32 +41,32 @@ msgid ""
 "also allows you to update your system using an offline update."
 msgstr ""
 
-#: ../data/appdata/org.gnome.Software.appdata.xml.in.h:5
+#: ../data/appdata/org.vaxp.vstore.appdata.xml.in.h:5
 #, fuzzy
 msgid "Overview panel"
 msgstr "Panel"
 
-#: ../data/appdata/org.gnome.Software.appdata.xml.in.h:6
+#: ../data/appdata/org.vaxp.vstore.appdata.xml.in.h:6
 #, fuzzy
 msgid "Details panel"
 msgstr "_Detallies..."
 
-#: ../data/appdata/org.gnome.Software.appdata.xml.in.h:7
+#: ../data/appdata/org.vaxp.vstore.appdata.xml.in.h:7
 #, fuzzy
 msgid "Installed panel"
 msgstr "Installat"
 
-#: ../data/appdata/org.gnome.Software.appdata.xml.in.h:8
+#: ../data/appdata/org.vaxp.vstore.appdata.xml.in.h:8
 #, fuzzy
 msgid "Updates panel"
 msgstr "Panel"
 
-#: ../data/appdata/org.gnome.Software.appdata.xml.in.h:9
+#: ../data/appdata/org.vaxp.vstore.appdata.xml.in.h:9
 #, fuzzy
 msgid "The update details"
 msgstr "Act_ualisar"
 
-#: ../data/appdata/org.gnome.Software.appdata.xml.in.h:10
+#: ../data/appdata/org.vaxp.vstore.appdata.xml.in.h:10
 msgid "The GNOME Project"
 msgstr "Li projecte GNOME"
 

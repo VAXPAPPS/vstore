@@ -20,16 +20,16 @@ msgstr ""
 "X-Generator: Poedit 3.4.2\n"
 "X-Project-Style: gnome\n"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:7 src/gs-shell.ui:27
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:7 src/gs-shell.ui:27
 #: src/org.vaxp.vstore.desktop.in:3
 msgid "Software"
 msgstr "Logicials"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:8
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:8
 msgid "Install and update apps"
 msgstr "Installar e metre a jorn las aplicacions"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:10
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:10
 #, fuzzy
 #| msgid ""
 #| "Software allows you to find and install new applications and system "
@@ -41,7 +41,7 @@ msgstr ""
 "Logicials servís a recercar e installar de novèlas aplicacions e extensions "
 "del sistèma, e tanben a suprimir las que son installadas sus vòstre ordenador."
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:14
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:14
 #, fuzzy
 #| msgid ""
 #| "vstore showcases featured and popular applications with useful "
@@ -60,30 +60,30 @@ msgstr ""
 "interrogant lo motor de recèrca. Logicials permet tanben de metre a jorn "
 "vòstre sistèma fòra linha."
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:25
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:25
 msgid "Overview panel"
 msgstr "Panèl de vista d'ensemble"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:29
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:33
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:29
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:33
 msgid "Details panel"
 msgstr "Panèl de las descripcions"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:37
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:37
 msgid "Installed panel"
 msgstr "Panèl de las installacions"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:41
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:45
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:41
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:45
 msgid "Updates panel"
 msgstr "Panèl de las mesas a jorn"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:49
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:49
 msgid "The update details"
 msgstr "Detalhs de la mesa a jorn"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:2437
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:2437
 #: src/gs-application.c:264
 msgid "The GNOME Project"
 msgstr "Lo projècte GNOME"
@@ -5681,11 +5681,11 @@ msgstr ""
 msgid "Web App"
 msgstr "Web Aplicacion"
 
-#: plugins/epiphany/org.gnome.Software.Plugin.Epiphany.metainfo.xml.in:6
+#: plugins/epiphany/org.vaxp.vstore.Plugin.Epiphany.metainfo.xml.in:6
 msgid "Web Apps Support"
 msgstr "Presa en carga de las aplicacions web"
 
-#: plugins/epiphany/org.gnome.Software.Plugin.Epiphany.metainfo.xml.in:7
+#: plugins/epiphany/org.vaxp.vstore.Plugin.Epiphany.metainfo.xml.in:7
 msgid "Run popular web applications in a browser"
 msgstr "Aviar d'aplicacions web dins un navigador"
 
@@ -5702,12 +5702,12 @@ msgstr ""
 "Mesa a nivèl per las darrièras foncionalitats e melhoraments d'estabilitat e "
 "de performanças."
 
-#: plugins/flatpak/org.gnome.Software.Plugin.Flatpak.metainfo.xml.in:6
+#: plugins/flatpak/org.vaxp.vstore.Plugin.Flatpak.metainfo.xml.in:6
 msgid "Flatpak Support"
 msgstr "Presa en carga de Flatpak"
 
 # Je n'ai trouvé aucune traduction ja existante de Framework dans les modules ja traduits.
-#: plugins/flatpak/org.gnome.Software.Plugin.Flatpak.metainfo.xml.in:7
+#: plugins/flatpak/org.vaxp.vstore.Plugin.Flatpak.metainfo.xml.in:7
 #, fuzzy
 #| msgid "Flatpak is a framework for desktop applications on Linux"
 msgid "Flatpak is a framework for desktop apps on Linux"
@@ -6125,11 +6125,11 @@ msgstr "La mesa a jorn a fracassat."
 msgid "Firmware"
 msgstr "Micrologicial"
 
-#: plugins/fwupd/org.gnome.Software.Plugin.Fwupd.metainfo.xml.in:6
+#: plugins/fwupd/org.vaxp.vstore.Plugin.Fwupd.metainfo.xml.in:6
 msgid "Firmware Upgrade Support"
 msgstr "Presa en carga de la mesa a jorn del micrologicial"
 
-#: plugins/fwupd/org.gnome.Software.Plugin.Fwupd.metainfo.xml.in:7
+#: plugins/fwupd/org.vaxp.vstore.Plugin.Fwupd.metainfo.xml.in:7
 msgid "Provides support for firmware upgrades"
 msgstr "Provesís una presa en carga de las mesas a jorn del micrologicial"
 
@@ -6194,11 +6194,11 @@ msgstr "Sistèma operatiu (OSTree)"
 msgid "Snap Store"
 msgstr "Botiga dels snap"
 
-#: plugins/snap/org.gnome.Software.Plugin.Snap.metainfo.xml.in:6
+#: plugins/snap/org.vaxp.vstore.Plugin.Snap.metainfo.xml.in:6
 msgid "Snap Support"
 msgstr "Presa en carga de Snap"
 
-#: plugins/snap/org.gnome.Software.Plugin.Snap.metainfo.xml.in:7
+#: plugins/snap/org.vaxp.vstore.Plugin.Snap.metainfo.xml.in:7
 msgid "A snap is a universal Linux package"
 msgstr "Un snap es un paquet logicial Linux universal"
 
@@ -7535,8 +7535,8 @@ msgstr "Un snap es un paquet logicial Linux universal"
 #~ msgid "Restart & _Install"
 #~ msgstr "Reaviar e _installar"
 
-#~ msgid "org.gnome.Software"
-#~ msgstr "org.gnome.Software"
+#~ msgid "org.vaxp.vstore"
+#~ msgstr "org.vaxp.vstore"
 
 #~| msgid "Setting up updates…"
 #~ msgid "Getting runtime source…"

@@ -18,15 +18,15 @@ msgstr ""
 "Last-Translator: abuyop <abuyop@gmail.com>\n"
 "X-Generator: Poedit 2.0.6\n"
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:7
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:7
 msgid "vstore"
 msgstr "Perisian GNOME"
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:8
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:8
 msgid "Application manager for GNOME"
 msgstr "Pengurus aplikasi untuk GNOME"
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:10
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:10
 msgid ""
 "Software allows you to find and install new applications and system "
 "extensions and remove existing installed applications."
@@ -35,7 +35,7 @@ msgstr ""
 "dan sambungan-sambungan sistem serta membuang aplikasi-aplikasi terpasang "
 "yang ada."
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:14
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:14
 msgid ""
 "vstore showcases featured and popular applications with useful "
 "descriptions and multiple screenshots per application. Applications can be "
@@ -48,27 +48,27 @@ msgstr ""
 "atau dengan cara menggelintar. Ia juga membolehkan anda kemaskini sistem "
 "anda menggunakan kemaskini luar talian."
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:25
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:25
 msgid "Overview panel"
 msgstr "Panel selayang pandang"
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:29
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:29
 msgid "Details panel"
 msgstr "Panel perincian"
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:33
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:33
 msgid "Installed panel"
 msgstr "Panel terpasang"
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:37
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:37
 msgid "Updates panel"
 msgstr "Panel kemas kini"
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:41
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:41
 msgid "The update details"
 msgstr "Perincian kemas kini"
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:1449
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:1449
 msgid "The GNOME Project"
 msgstr "Projek GNOME"
 
@@ -4241,11 +4241,11 @@ msgstr ""
 "Tatar untuk dapatkan fitur-fitur terkini, penambahanbaikan prestasi dan "
 "kestabilan."
 
-#: plugins/flatpak/org.gnome.Software.Plugin.Flatpak.metainfo.xml.in:6
+#: plugins/flatpak/org.vaxp.vstore.Plugin.Flatpak.metainfo.xml.in:6
 msgid "Flatpak Support"
 msgstr "Sokongan Flatpak"
 
-#: plugins/flatpak/org.gnome.Software.Plugin.Flatpak.metainfo.xml.in:7
+#: plugins/flatpak/org.vaxp.vstore.Plugin.Flatpak.metainfo.xml.in:7
 msgid "Flatpak is a framework for desktop applications on Linux"
 msgstr "Flatpak merupakan rangka kerja untuk aplikasi-aplikasi atas meja Linux"
 
@@ -4323,11 +4323,11 @@ msgstr "Memuat turun tandatangan kemas kini perisian tegar…"
 msgid "Downloading firmware update metadata…"
 msgstr "Memuat turun data meta kemas kini perisian tegar…"
 
-#: plugins/fwupd/org.gnome.Software.Plugin.Fwupd.metainfo.xml.in:6
+#: plugins/fwupd/org.vaxp.vstore.Plugin.Fwupd.metainfo.xml.in:6
 msgid "Firmware Upgrade Support"
 msgstr "Sokongan Penataran Perisian Tegar"
 
-#: plugins/fwupd/org.gnome.Software.Plugin.Fwupd.metainfo.xml.in:7
+#: plugins/fwupd/org.vaxp.vstore.Plugin.Fwupd.metainfo.xml.in:7
 msgid "Provides support for firmware upgrades"
 msgstr "Menyediakan sokongan untuk penataran perisian tegar"
 
@@ -4336,11 +4336,11 @@ msgstr "Menyediakan sokongan untuk penataran perisian tegar"
 msgid "Downloading application ratings…"
 msgstr "Memuat turun penarafan aplikasi…"
 
-#: plugins/odrs/org.gnome.Software.Plugin.Odrs.metainfo.xml.in:6
+#: plugins/odrs/org.vaxp.vstore.Plugin.Odrs.metainfo.xml.in:6
 msgid "Open Desktop Ratings Support"
 msgstr "Open Desktop Ratings Support"
 
-#: plugins/odrs/org.gnome.Software.Plugin.Odrs.metainfo.xml.in:7
+#: plugins/odrs/org.vaxp.vstore.Plugin.Odrs.metainfo.xml.in:7
 msgid "ODRS is a service providing user reviews of applications"
 msgstr ""
 "ODRS merupakan perkhidmatan yang menyediakan ulasan-ulasan pengguna terhadap "
@@ -4371,10 +4371,10 @@ msgstr "Sambungan GNOME Shell"
 msgid "Snap Store"
 msgstr "Kedai Snap"
 
-#: plugins/snap/org.gnome.Software.Plugin.Snap.metainfo.xml.in:6
+#: plugins/snap/org.vaxp.vstore.Plugin.Snap.metainfo.xml.in:6
 msgid "Snap Support"
 msgstr "Sokongan Snap"
 
-#: plugins/snap/org.gnome.Software.Plugin.Snap.metainfo.xml.in:7
+#: plugins/snap/org.vaxp.vstore.Plugin.Snap.metainfo.xml.in:7
 msgid "A snap is a universal Linux package"
 msgstr "Snap merupakan pakej Linux universal"

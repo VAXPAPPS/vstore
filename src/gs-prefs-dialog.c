@@ -74,7 +74,7 @@ gs_prefs_dialog_init (GsPrefsDialog *dialog)
 	gtk_widget_init_template (GTK_WIDGET (dialog));
 
 	dialog->cancellable = g_cancellable_new ();
-	dialog->settings = g_settings_new ("org.gnome.software");
+	dialog->settings = g_settings_new ("org.vaxp.vstore");
 	g_settings_bind (dialog->settings,
 			 "download-updates-notify",
 			 dialog->switch_updates_notify,

@@ -19,17 +19,17 @@ msgstr ""
 "X-Generator: Virtaal 0.7.1\n"
 "X-Project-Style: gnome\n"
 
-#: ../data/appdata/org.gnome.Software.appdata.xml.in.h:1
+#: ../data/appdata/org.vaxp.vstore.appdata.xml.in.h:1
 msgid "Application manager for GNOME"
 msgstr "గ్నోమ్ కోసం అనువర్తన నిర్వాహకం"
 
-#: ../data/appdata/org.gnome.Software.appdata.xml.in.h:2
+#: ../data/appdata/org.vaxp.vstore.appdata.xml.in.h:2
 msgid ""
 "Software allows you to find and install new applications and system "
 "extensions and remove existing installed applications."
 msgstr ""
 
-#: ../data/appdata/org.gnome.Software.appdata.xml.in.h:3
+#: ../data/appdata/org.vaxp.vstore.appdata.xml.in.h:3
 msgid ""
 "vstore showcases featured and popular applications with useful "
 "descriptions and multiple screenshots per application. Applications can be "

@@ -150,7 +150,7 @@ gs_plugin_snap_init (GsPluginSnap *self)
 	gs_plugin_add_rule (GS_PLUGIN (self), GS_PLUGIN_RULE_RUN_BEFORE, "icons");
 
 	/* set name of MetaInfo file */
-	gs_plugin_set_appstream_id (GS_PLUGIN (self), "org.gnome.Software.Plugin.Snap");
+	gs_plugin_set_appstream_id (GS_PLUGIN (self), "org.vaxp.vstore.Plugin.Snap");
 }
 
 void

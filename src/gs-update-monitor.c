@@ -1437,7 +1437,7 @@ gs_update_monitor_init (GsUpdateMonitor *monitor)
 {
 	GNetworkMonitor *network_monitor;
 	g_autoptr(GError) error = NULL;
-	monitor->settings = g_settings_new ("org.gnome.software");
+	monitor->settings = g_settings_new ("org.vaxp.vstore");
 
 	/* cleanup at startup */
 	monitor->cleanup_notifications_id =

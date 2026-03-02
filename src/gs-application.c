@@ -1110,7 +1110,7 @@ gs_application_startup (GApplication *application)
 #ifdef HAVE_PACKAGEKIT
 	app->dbus_helper = gs_dbus_helper_new (g_application_get_dbus_connection (application));
 #endif
-	settings = g_settings_new ("org.gnome.software");
+	settings = g_settings_new ("org.vaxp.vstore");
 	app->settings = settings;
 	g_signal_connect_swapped (settings, "changed",
 				  G_CALLBACK (gs_application_settings_changed_cb),
@@ -1194,7 +1194,7 @@ gs_application_constructed (GObject *object)
 	G_OBJECT_CLASS (gs_application_parent_class)->constructed (object);
 
 	/* This is needed when the the application's ID isn't
-	 * org.gnome.Software, e.g. for the development profile (when
+	 * org.vaxp.vstore, e.g. for the development profile (when
 	 * `BUILD_PROFILE` is defined). Without this, icon resources can't
 	 * be loaded appropriately. */
 	g_application_set_resource_base_path (G_APPLICATION (self),

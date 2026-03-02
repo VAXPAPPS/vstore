@@ -15,7 +15,7 @@
 #include <glib.h>
 #include <vstore.h>
 
-#define EXTERNAL_APPSTREAM_PREFIX "org.gnome.Software"
+#define EXTERNAL_APPSTREAM_PREFIX "org.vaxp.vstore"
 
 /**
  * GsExternalAppstreamError:

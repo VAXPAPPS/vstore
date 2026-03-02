@@ -25,16 +25,16 @@ msgstr ""
 "X-DL-Domain: po\n"
 "X-DL-State: Translating\n"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:7 src/gs-shell.ui:27
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:7 src/gs-shell.ui:27
 #: src/org.vaxp.vstore.desktop.in:3
 msgid "Software"
 msgstr "תכנה"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:8
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:8
 msgid "Install and update apps"
 msgstr "התקנה ועדכון יישומים"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:10
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:10
 msgid ""
 "Software allows you to find and install new apps and system extensions and "
 "remove existing installed apps."
@@ -42,7 +42,7 @@ msgstr ""
 "תכנה מאפשר לך למצוא ולהתקין יישומים חדשים והרחבות מערכת ולהסיר יישומים "
 "מותקנים קיימים."
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:14
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:14
 msgid ""
 "Software showcases featured and popular apps with useful descriptions and "
 "multiple screenshots per app. Apps can be found either through browsing the "
@@ -53,30 +53,30 @@ msgstr ""
 "יישום. ניתן למצוא יישומים באמצעות קטגוריות או באמצעות חיפוש.  כמו כן ניתן אף "
 "לעדכן את המערכת שלך באמצעות עדכונים לא מקוונים."
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:25
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:25
 msgid "Overview panel"
 msgstr "עמוד סקירה"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:29
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:33
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:29
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:33
 msgid "Details panel"
 msgstr "לוח פרטים"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:37
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:37
 msgid "Installed panel"
 msgstr "עמוד מותקנים"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:41
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:45
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:41
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:45
 msgid "Updates panel"
 msgstr "דף עדכונים"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:49
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:49
 msgid "The update details"
 msgstr "פרטי עדכון"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:2437
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:2437
 #: src/gs-application.c:264
 msgid "The GNOME Project"
 msgstr "מיזם GNOME"
@@ -5305,11 +5305,11 @@ msgstr "שירות העדכון של EOS לא הצליח לקבל ולהחיל �
 msgid "Web App"
 msgstr "יישום רשת"
 
-#: plugins/epiphany/org.gnome.Software.Plugin.Epiphany.metainfo.xml.in:6
+#: plugins/epiphany/org.vaxp.vstore.Plugin.Epiphany.metainfo.xml.in:6
 msgid "Web Apps Support"
 msgstr "תמיקה ביישומי רשת"
 
-#: plugins/epiphany/org.gnome.Software.Plugin.Epiphany.metainfo.xml.in:7
+#: plugins/epiphany/org.vaxp.vstore.Plugin.Epiphany.metainfo.xml.in:7
 msgid "Run popular web applications in a browser"
 msgstr "הרצת יישומי רשת פופולריים בדפדפן"
 
@@ -5326,11 +5326,11 @@ msgid ""
 msgstr ""
 "כדאי לעדכן כדי לקבל את היכולות העדכניות לצד שיפורים הן בביצועים והן ביציבות."
 
-#: plugins/flatpak/org.gnome.Software.Plugin.Flatpak.metainfo.xml.in:6
+#: plugins/flatpak/org.vaxp.vstore.Plugin.Flatpak.metainfo.xml.in:6
 msgid "Flatpak Support"
 msgstr "תמיכת Flatpak"
 
-#: plugins/flatpak/org.gnome.Software.Plugin.Flatpak.metainfo.xml.in:7
+#: plugins/flatpak/org.vaxp.vstore.Plugin.Flatpak.metainfo.xml.in:7
 msgid "Flatpak is a framework for desktop apps on Linux"
 msgstr "‏Flatpak זוהי מסגרת עבור יישומים שולחניים על לינוקס"
 
@@ -5733,11 +5733,11 @@ msgstr "לא ניתן להחיל את עדכוני הקושחה:"
 msgid "Firmware"
 msgstr "קושחה"
 
-#: plugins/fwupd/org.gnome.Software.Plugin.Fwupd.metainfo.xml.in:6
+#: plugins/fwupd/org.vaxp.vstore.Plugin.Fwupd.metainfo.xml.in:6
 msgid "Firmware Upgrade Support"
 msgstr "תמיכה בשדרוג קושחות"
 
-#: plugins/fwupd/org.gnome.Software.Plugin.Fwupd.metainfo.xml.in:7
+#: plugins/fwupd/org.vaxp.vstore.Plugin.Fwupd.metainfo.xml.in:7
 msgid "Provides support for firmware upgrades"
 msgstr "מספק תמיכה עבור שדרוג קושחות"
 
@@ -5798,11 +5798,11 @@ msgstr "מערכת הפעלה (OSTree)"
 msgid "Snap Store"
 msgstr "חנות Snap"
 
-#: plugins/snap/org.gnome.Software.Plugin.Snap.metainfo.xml.in:6
+#: plugins/snap/org.vaxp.vstore.Plugin.Snap.metainfo.xml.in:6
 msgid "Snap Support"
 msgstr "תמיכה ב־Snap"
 
-#: plugins/snap/org.gnome.Software.Plugin.Snap.metainfo.xml.in:7
+#: plugins/snap/org.vaxp.vstore.Plugin.Snap.metainfo.xml.in:7
 msgid "A snap is a universal Linux package"
 msgstr "‏Snap זו חבילה שנתמכת במגוון הפצות לינוקס"
 

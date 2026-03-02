@@ -134,7 +134,7 @@ gs_plugin_fwupd_init (GsPluginFwupd *self)
 	g_mutex_init (&self->cached_sources_mutex);
 
 	/* set name of MetaInfo file */
-	gs_plugin_set_appstream_id (GS_PLUGIN (self), "org.gnome.Software.Plugin.Fwupd");
+	gs_plugin_set_appstream_id (GS_PLUGIN (self), "org.vaxp.vstore.Plugin.Fwupd");
 }
 
 static void

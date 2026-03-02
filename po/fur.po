@@ -19,16 +19,16 @@ msgstr ""
 "X-Editor: HaiPO 1.4 beta\n"
 "X-Generator: Poedit 3.4.2\n"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:7 src/gs-shell.ui:27
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:7 src/gs-shell.ui:27
 #: src/org.vaxp.vstore.desktop.in:3
 msgid "Software"
 msgstr "Software"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:8
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:8
 msgid "Install and update apps"
 msgstr "Instale e inzorne lis aplicazions"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:10
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:10
 msgid ""
 "Software allows you to find and install new apps and system extensions and "
 "remove existing installed apps."
@@ -36,7 +36,7 @@ msgstr ""
 "Software ti permet di cjatâ e instalâ gnovis aplicazions e estensions di "
 "sisteme e di gjavâ aplicazions instaladis."
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:14
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:14
 msgid ""
 "Software showcases featured and popular apps with useful descriptions and "
 "multiple screenshots per app. Apps can be found either through browsing the "
@@ -49,30 +49,30 @@ msgstr ""
 "la ricercje. Ti permet ancje di inzornâ il sisteme doprant un inzornament "
 "fûr rêt."
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:25
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:25
 msgid "Overview panel"
 msgstr "Panel di panoramiche"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:29
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:33
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:29
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:33
 msgid "Details panel"
 msgstr "Panel di detais"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:37
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:37
 msgid "Installed panel"
 msgstr "Panel instalâts"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:41
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:45
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:41
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:45
 msgid "Updates panel"
 msgstr "Panel inzornaments"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:49
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:49
 msgid "The update details"
 msgstr "I detais dal inzornament"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:2506
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:2506
 #: src/gs-application.c:264
 msgid "The GNOME Project"
 msgstr "Il progjet GNOME"
@@ -5386,11 +5386,11 @@ msgstr ""
 msgid "Web App"
 msgstr "Aplicazion web"
 
-#: plugins/epiphany/org.gnome.Software.Plugin.Epiphany.metainfo.xml.in:6
+#: plugins/epiphany/org.vaxp.vstore.Plugin.Epiphany.metainfo.xml.in:6
 msgid "Web Apps Support"
 msgstr "Supuart aplicazions Web"
 
-#: plugins/epiphany/org.gnome.Software.Plugin.Epiphany.metainfo.xml.in:7
+#: plugins/epiphany/org.vaxp.vstore.Plugin.Epiphany.metainfo.xml.in:7
 msgid "Run popular web applications in a browser"
 msgstr "Eseguìs lis aplicazions web popolârs intun browser"
 
@@ -5408,11 +5408,11 @@ msgstr ""
 "Avanze par vê i mioraments des ultimis funzionalitâts, di stabilitât e di "
 "prestazion."
 
-#: plugins/flatpak/org.gnome.Software.Plugin.Flatpak.metainfo.xml.in:6
+#: plugins/flatpak/org.vaxp.vstore.Plugin.Flatpak.metainfo.xml.in:6
 msgid "Flatpak Support"
 msgstr "Supuart Flatpak"
 
-#: plugins/flatpak/org.gnome.Software.Plugin.Flatpak.metainfo.xml.in:7
+#: plugins/flatpak/org.vaxp.vstore.Plugin.Flatpak.metainfo.xml.in:7
 msgid "Flatpak is a framework for desktop apps on Linux"
 msgstr ""
 "Flatpak al è un ambient di funzionament par aplicazions di scritori su Linux"
@@ -5821,11 +5821,11 @@ msgstr "Nol è stât pussibil aplicâ l'inzornament dal firmware: "
 msgid "Firmware"
 msgstr "Firmware"
 
-#: plugins/fwupd/org.gnome.Software.Plugin.Fwupd.metainfo.xml.in:6
+#: plugins/fwupd/org.vaxp.vstore.Plugin.Fwupd.metainfo.xml.in:6
 msgid "Firmware Upgrade Support"
 msgstr "Supuart di inzornament dai Firmware"
 
-#: plugins/fwupd/org.gnome.Software.Plugin.Fwupd.metainfo.xml.in:7
+#: plugins/fwupd/org.vaxp.vstore.Plugin.Fwupd.metainfo.xml.in:7
 msgid "Provides support for firmware upgrades"
 msgstr "Al furnìs supuart pai inzornaments dai firmware"
 
@@ -5888,11 +5888,11 @@ msgstr "Sisteme Operatîf (OSTree)"
 msgid "Snap Store"
 msgstr "Archivi Snap"
 
-#: plugins/snap/org.gnome.Software.Plugin.Snap.metainfo.xml.in:6
+#: plugins/snap/org.vaxp.vstore.Plugin.Snap.metainfo.xml.in:6
 msgid "Snap Support"
 msgstr "Supuart Snap"
 
-#: plugins/snap/org.gnome.Software.Plugin.Snap.metainfo.xml.in:7
+#: plugins/snap/org.vaxp.vstore.Plugin.Snap.metainfo.xml.in:7
 msgid "A snap is a universal Linux package"
 msgstr "Un snap al è un pachet universâl par Linux"
 
@@ -7175,8 +7175,8 @@ msgstr "Un snap al è un pachet universâl par Linux"
 #~ msgid "Software catalog is being loaded"
 #~ msgstr "Al ven cjariât il catalic dai software"
 
-#~ msgid "org.gnome.Software"
-#~ msgstr "org.gnome.Software"
+#~ msgid "org.vaxp.vstore"
+#~ msgstr "org.vaxp.vstore"
 
 #~ msgid "..."
 #~ msgstr "..."

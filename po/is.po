@@ -17,23 +17,23 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 21.12.3\n"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:7 src/gs-shell.ui:21
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:7 src/gs-shell.ui:21
 #: src/org.vaxp.vstore.desktop.in:3
 msgid "Software"
 msgstr "Hugbúnaður"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:8
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:8
 #| msgid "Installed Updates"
 msgid "Install and update apps"
 msgstr "Uppsetning og uppfærsla forrita"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:10
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:10
 msgid ""
 "Software allows you to find and install new applications and system "
 "extensions and remove existing installed applications."
 msgstr ""
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:14
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:14
 msgid ""
 "Software showcases featured and popular applications with useful "
 "descriptions and multiple screenshots per application. Applications can be "
@@ -41,29 +41,29 @@ msgid ""
 "also allows you to update your system using an offline update."
 msgstr ""
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:25
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:25
 msgid "Overview panel"
 msgstr "Yfirlitsspjald"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:29
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:33
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:29
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:33
 msgid "Details panel"
 msgstr "Spjald með nánari upplýsingum"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:37
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:37
 msgid "Installed panel"
 msgstr "Spjald með uppsettu"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:41
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:45
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:41
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:45
 msgid "Updates panel"
 msgstr "Spjald með uppfærslum"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:49
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:49
 msgid "The update details"
 msgstr "Nánari upplýsingar um uppfærslu"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:2043
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:2043
 #: src/gs-application.c:256
 msgid "The GNOME Project"
 msgstr "GNOME verkefnið"
@@ -4724,12 +4724,12 @@ msgstr ""
 msgid "GNOME Web"
 msgstr "GNOME vefforrit"
 
-#: plugins/epiphany/org.gnome.Software.Plugin.Epiphany.metainfo.xml.in:6
+#: plugins/epiphany/org.vaxp.vstore.Plugin.Epiphany.metainfo.xml.in:6
 #| msgid "Desktop Support"
 msgid "Web Apps Support"
 msgstr "Stuðningur við vefforrit"
 
-#: plugins/epiphany/org.gnome.Software.Plugin.Epiphany.metainfo.xml.in:7
+#: plugins/epiphany/org.vaxp.vstore.Plugin.Epiphany.metainfo.xml.in:7
 msgid "Run popular web applications in a browser"
 msgstr ""
 
@@ -4744,11 +4744,11 @@ msgid ""
 "Upgrade for the latest features, performance and stability improvements."
 msgstr ""
 
-#: plugins/flatpak/org.gnome.Software.Plugin.Flatpak.metainfo.xml.in:6
+#: plugins/flatpak/org.vaxp.vstore.Plugin.Flatpak.metainfo.xml.in:6
 msgid "Flatpak Support"
 msgstr "Flatpak-stuðningur"
 
-#: plugins/flatpak/org.gnome.Software.Plugin.Flatpak.metainfo.xml.in:7
+#: plugins/flatpak/org.vaxp.vstore.Plugin.Flatpak.metainfo.xml.in:7
 msgid "Flatpak is a framework for desktop applications on Linux"
 msgstr ""
 
@@ -5079,11 +5079,11 @@ msgstr "%s uppfærsla USB-móttakara"
 msgid "Firmware"
 msgstr "Grunnhugbúnaður"
 
-#: plugins/fwupd/org.gnome.Software.Plugin.Fwupd.metainfo.xml.in:6
+#: plugins/fwupd/org.vaxp.vstore.Plugin.Fwupd.metainfo.xml.in:6
 msgid "Firmware Upgrade Support"
 msgstr "Stuðningur við uppfærslu grunnhugbúnaður (firmware)"
 
-#: plugins/fwupd/org.gnome.Software.Plugin.Fwupd.metainfo.xml.in:7
+#: plugins/fwupd/org.vaxp.vstore.Plugin.Fwupd.metainfo.xml.in:7
 msgid "Provides support for firmware upgrades"
 msgstr "Veitir stuðning við uppfærslu grunnhugbúnaðar"
 
@@ -5133,11 +5133,11 @@ msgstr "Stýrikerfi (OSTree)"
 msgid "Snap Store"
 msgstr "Snap-miðstöð"
 
-#: plugins/snap/org.gnome.Software.Plugin.Snap.metainfo.xml.in:6
+#: plugins/snap/org.vaxp.vstore.Plugin.Snap.metainfo.xml.in:6
 msgid "Snap Support"
 msgstr "Stuðningur við Snap"
 
-#: plugins/snap/org.gnome.Software.Plugin.Snap.metainfo.xml.in:7
+#: plugins/snap/org.vaxp.vstore.Plugin.Snap.metainfo.xml.in:7
 msgid "A snap is a universal Linux package"
 msgstr "Snap-pakkar eru algildir Linux-pakkar"
 
@@ -5577,8 +5577,8 @@ msgstr "Snap-pakkar eru algildir Linux-pakkar"
 #~ msgstr "Endurræsa og setja _inn"
 
 #~| msgid "Software"
-#~ msgid "org.gnome.Software"
-#~ msgstr "org.gnome.Software"
+#~ msgid "org.vaxp.vstore"
+#~ msgstr "org.vaxp.vstore"
 
 #~ msgid "Total"
 #~ msgstr "Samtals"

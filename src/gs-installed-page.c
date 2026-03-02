@@ -927,7 +927,7 @@ gs_installed_page_init (GsInstalledPage *self)
 	self->sizegroup_button_label = gtk_size_group_new (GTK_SIZE_GROUP_HORIZONTAL);
 	self->sizegroup_button_image = gtk_size_group_new (GTK_SIZE_GROUP_HORIZONTAL);
 
-	self->settings = g_settings_new ("org.gnome.software");
+	self->settings = g_settings_new ("org.vaxp.vstore");
 }
 
 /**

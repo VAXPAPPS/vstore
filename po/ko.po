@@ -18,16 +18,16 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.4.2\n"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:7 src/gs-shell.ui:27
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:7 src/gs-shell.ui:27
 #: src/org.vaxp.vstore.desktop.in:3
 msgid "Software"
 msgstr "소프트웨어"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:8
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:8
 msgid "Install and update apps"
 msgstr "앱을 설치하고 업데이트합니다"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:10
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:10
 msgid ""
 "Software allows you to find and install new apps and system extensions and "
 "remove existing installed apps."
@@ -35,7 +35,7 @@ msgstr ""
 "소프트웨어에서 새 앱과 시스템 확장을 찾아 설치할 수 있고, 기존에 설치한 앱을 "
 "제거할 수 있습니다."
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:14
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:14
 msgid ""
 "Software showcases featured and popular apps with useful descriptions and "
 "multiple screenshots per app. Apps can be found either through browsing the "
@@ -47,30 +47,30 @@ msgstr ""
 "을 찾을 수 있습니다. 오프라인 업데이트를 사용하여 시스템을 업데이트할 수도 있"
 "습니다."
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:25
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:25
 msgid "Overview panel"
 msgstr "개요 패널"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:29
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:33
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:29
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:33
 msgid "Details panel"
 msgstr "세부 정보 패널"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:37
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:37
 msgid "Installed panel"
 msgstr "설치한 항목 패널"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:41
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:45
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:41
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:45
 msgid "Updates panel"
 msgstr "업데이트 패널"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:49
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:49
 msgid "The update details"
 msgstr "업데이트 세부 항목"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:2477
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:2477
 #: src/gs-application.c:264
 msgid "The GNOME Project"
 msgstr "그놈 프로젝트"
@@ -5249,11 +5249,11 @@ msgstr "EOS 업데이트 서비스에서 업데이트를 가져오고 적용할 
 msgid "Web App"
 msgstr "웹 앱"
 
-#: plugins/epiphany/org.gnome.Software.Plugin.Epiphany.metainfo.xml.in:6
+#: plugins/epiphany/org.vaxp.vstore.Plugin.Epiphany.metainfo.xml.in:6
 msgid "Web Apps Support"
 msgstr "웹 앱 지원"
 
-#: plugins/epiphany/org.gnome.Software.Plugin.Epiphany.metainfo.xml.in:7
+#: plugins/epiphany/org.vaxp.vstore.Plugin.Epiphany.metainfo.xml.in:7
 msgid "Run popular web applications in a browser"
 msgstr "브라우저에서 인기있는 웹 프로그램 실행"
 
@@ -5269,11 +5269,11 @@ msgid ""
 "Upgrade for the latest features, performance and stability improvements."
 msgstr "최신 기능, 성능, 안정성 개선 업그레이드입니다."
 
-#: plugins/flatpak/org.gnome.Software.Plugin.Flatpak.metainfo.xml.in:6
+#: plugins/flatpak/org.vaxp.vstore.Plugin.Flatpak.metainfo.xml.in:6
 msgid "Flatpak Support"
 msgstr "Flatpak 지원"
 
-#: plugins/flatpak/org.gnome.Software.Plugin.Flatpak.metainfo.xml.in:7
+#: plugins/flatpak/org.vaxp.vstore.Plugin.Flatpak.metainfo.xml.in:7
 msgid "Flatpak is a framework for desktop apps on Linux"
 msgstr "플랫팩은 리눅스 데스크톱 앱용 프레임워크입니다"
 
@@ -5679,11 +5679,11 @@ msgstr "펌웨어 업데이트를 적용할 수 없습니다: "
 msgid "Firmware"
 msgstr "펌웨어"
 
-#: plugins/fwupd/org.gnome.Software.Plugin.Fwupd.metainfo.xml.in:6
+#: plugins/fwupd/org.vaxp.vstore.Plugin.Fwupd.metainfo.xml.in:6
 msgid "Firmware Upgrade Support"
 msgstr "펌웨어 업그레이드 지원"
 
-#: plugins/fwupd/org.gnome.Software.Plugin.Fwupd.metainfo.xml.in:7
+#: plugins/fwupd/org.vaxp.vstore.Plugin.Fwupd.metainfo.xml.in:7
 msgid "Provides support for firmware upgrades"
 msgstr "펌웨어 업그레이드 지원 기능이 들어있습니다"
 
@@ -5744,11 +5744,11 @@ msgstr "운영체제 (OSTree)"
 msgid "Snap Store"
 msgstr "스냅 스토어"
 
-#: plugins/snap/org.gnome.Software.Plugin.Snap.metainfo.xml.in:6
+#: plugins/snap/org.vaxp.vstore.Plugin.Snap.metainfo.xml.in:6
 msgid "Snap Support"
 msgstr "스냅 지원"
 
-#: plugins/snap/org.gnome.Software.Plugin.Snap.metainfo.xml.in:7
+#: plugins/snap/org.vaxp.vstore.Plugin.Snap.metainfo.xml.in:7
 msgid "A snap is a universal Linux package"
 msgstr "스냅은 통합 리눅스 패키지 형식입니다"
 

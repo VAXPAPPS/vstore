@@ -55,7 +55,7 @@ static GsApp *
 gs_plugin_generic_updates_get_os_update (GsPlugin *plugin)
 {
 	GsApp *app;
-	const gchar *id = "org.gnome.Software.OsUpdate";
+	const gchar *id = "org.vaxp.vstore.OsUpdate";
 	g_autoptr(GIcon) ic = NULL;
 
 	/* create new */

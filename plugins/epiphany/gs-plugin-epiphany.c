@@ -30,7 +30,7 @@
  * for installed web apps:
  *
  * 1. The app ID used in the <id> element in the AppStream metainfo file, which
- *    looks like "org.gnome.Software.WebApp_527a2dd6729c3574227c145bbc447997f0048537.desktop"
+ *    looks like "org.vaxp.vstore.WebApp_527a2dd6729c3574227c145bbc447997f0048537.desktop"
  *    See https://gitlab.gnome.org/mwleeds/gnome-pwa-list/-/blob/6e8b17b018f99dbf00b1fa956ed75c4a0ccbf389/pwa-metainfo-generator.py#L84-89
  *    This app ID is used for gs_app_new() so that the appstream plugin
  *    refines the apps created here, and used for the plugin cache.
@@ -346,7 +346,7 @@ gs_plugin_epiphany_init (GsPluginEpiphany *self)
 	gs_app_permissions_seal (self->permissions);
 
 	/* set name of MetaInfo file */
-	gs_plugin_set_appstream_id (GS_PLUGIN (self), "org.gnome.Software.Plugin.Epiphany");
+	gs_plugin_set_appstream_id (GS_PLUGIN (self), "org.vaxp.vstore.Plugin.Epiphany");
 
 	/* need help from appstream */
 	gs_plugin_add_rule (GS_PLUGIN (self), GS_PLUGIN_RULE_RUN_AFTER, "appstream");
@@ -663,7 +663,7 @@ generate_app_id_for_url (const gchar *url)
 	 * GsApp we create (see the comment at the top of this file).
 	 */
 	g_autofree gchar *url_hash = g_compute_checksum_for_string (G_CHECKSUM_SHA1, url, -1);
-	return g_strconcat ("org.gnome.Software.WebApp_", url_hash, ".desktop", NULL);
+	return g_strconcat ("org.vaxp.vstore.WebApp_", url_hash, ".desktop", NULL);
 }
 
 /* Run in @worker */

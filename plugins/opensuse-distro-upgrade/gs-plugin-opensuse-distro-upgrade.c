@@ -366,7 +366,7 @@ list_distro_upgrades_cb (GObject      *source_object,
 	GsPluginOpensuseDistroUpgrade *self = GS_PLUGIN_OPENSUSE_DISTRO_UPGRADE (source_object);
 
 	/* Only interested in stable versions. */
-	settings = g_settings_new ("org.gnome.software");
+	settings = g_settings_new ("org.vaxp.vstore");
 	show_prerelease = g_settings_get_boolean (settings, "show-upgrade-prerelease");
 
 	distros = ensure_cache_finish (self, result, &local_error);

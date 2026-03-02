@@ -6,7 +6,7 @@
     <project_license>LicenseRef-proprietary</project_license>
     <metadata_license>FSFAP</metadata_license>
     <name>Twitter</name>
-    <id>org.gnome.Software.WebApp_5ea0d5a0681e425022d889f3e355de2f19f92070.desktop</id>
+    <id>org.vaxp.vstore.WebApp_5ea0d5a0681e425022d889f3e355de2f19f92070.desktop</id>
     <icon type="remote" width="192" height="192">https://abs.twimg.com/responsive-web/client-web-legacy/icon-default.ee534d85.png</icon>
     <icon type="remote" width="512" height="512">https://abs.twimg.com/responsive-web/client-web-legacy/icon-default-large.8e027b65.png</icon>
     <screenshots>
@@ -43,7 +43,7 @@
     <project_license>LicenseRef-proprietary</project_license>
     <metadata_license>FSFAP</metadata_license>
     <name>Photopea</name>
-    <id>org.gnome.Software.WebApp_b38ea26683d13dabcfbbc10824fcd7f3b88af94b.desktop</id>
+    <id>org.vaxp.vstore.WebApp_b38ea26683d13dabcfbbc10824fcd7f3b88af94b.desktop</id>
     <icon type="remote" width="512" height="512">https://www.photopea.com/promo/icon512.png</icon>
     <categories>
       <category>Photography</category>

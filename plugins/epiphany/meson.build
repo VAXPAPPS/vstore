@@ -26,7 +26,7 @@ shared_module(
     libgnomesoftware,
   ],
 )
-metainfo = 'org.gnome.Software.Plugin.Epiphany.metainfo.xml'
+metainfo = 'org.vaxp.vstore.Plugin.Epiphany.metainfo.xml'
 
 i18n.merge_file(
   input: metainfo + '.in',

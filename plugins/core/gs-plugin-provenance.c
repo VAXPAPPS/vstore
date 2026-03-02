@@ -124,7 +124,7 @@ gs_plugin_provenance_settings_changed_cb (GSettings *settings,
 static void
 gs_plugin_provenance_init (GsPluginProvenance *self)
 {
-	self->settings = g_settings_new ("org.gnome.software");
+	self->settings = g_settings_new ("org.vaxp.vstore");
 	self->repos = g_hash_table_new_full (g_str_hash, g_str_equal, g_free, NULL);
 	g_signal_connect (self->settings, "changed",
 			  G_CALLBACK (gs_plugin_provenance_settings_changed_cb), self);

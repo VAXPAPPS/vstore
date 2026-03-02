@@ -2402,7 +2402,7 @@ gs_appstream_get_appstream_data_dirs (void)
 {
 	GPtrArray *appstream_data_dirs = g_ptr_array_new_with_free_func (g_free);
 #ifdef ENABLE_EXTERNAL_APPSTREAM
-	g_autoptr(GSettings) settings = g_settings_new ("org.gnome.software");
+	g_autoptr(GSettings) settings = g_settings_new ("org.vaxp.vstore");
 #endif
 	g_autofree gchar *state_cache_dir = NULL;
 	g_autofree gchar *state_lib_dir = NULL;
@@ -2611,7 +2611,7 @@ gs_appstream_load_appstream_dir (XbBuilder *builder,
 	gboolean any_loaded = FALSE;
 	g_autoptr(GDir) dir = NULL;
 #ifdef ENABLE_EXTERNAL_APPSTREAM
-	g_autoptr(GSettings) settings = g_settings_new ("org.gnome.software");
+	g_autoptr(GSettings) settings = g_settings_new ("org.vaxp.vstore");
 	gboolean external_appstream_system_wide = g_settings_get_boolean (settings, "external-appstream-system-wide");
 #endif
 

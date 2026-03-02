@@ -28,7 +28,7 @@ shared_module(
   c_args : cargs,
   dependencies : deps,
 )
-metainfo = 'org.gnome.Software.Plugin.Flatpak.metainfo.xml'
+metainfo = 'org.vaxp.vstore.Plugin.Flatpak.metainfo.xml'
 
 i18n.merge_file(
   input: metainfo + '.in',

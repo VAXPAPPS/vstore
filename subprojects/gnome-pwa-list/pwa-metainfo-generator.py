@@ -84,7 +84,7 @@ def copy_metainfo_from_manifest(url, app_component, manifest, categories, conten
     # Generate a unique app ID that meets the spec requirements. A different
     # app ID will be used upon install that is determined by the backing browser
     hashed_url = hashlib.sha1(url.encode('utf-8')).hexdigest()
-    app_id = 'org.gnome.Software.WebApp_' + hashed_url + '.desktop'
+    app_id = 'org.vaxp.vstore.WebApp_' + hashed_url + '.desktop'
     ET.SubElement(app_component, 'id').text = app_id
 
     # Avoid using maskable icons if we can, they don't have nice rounded edges

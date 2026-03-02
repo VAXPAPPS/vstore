@@ -907,7 +907,7 @@ gs_screenshot_image_init (GsScreenshotImage *ssimg)
 {
 	GtkGesture *gesture;
 
-	ssimg->settings = g_settings_new ("org.gnome.software");
+	ssimg->settings = g_settings_new ("org.vaxp.vstore");
 	ssimg->showing_image = FALSE;
 
 	gtk_widget_init_template (GTK_WIDGET (ssimg));

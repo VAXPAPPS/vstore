@@ -20,16 +20,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.4.2\n"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:7 src/gs-shell.ui:27
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:7 src/gs-shell.ui:27
 #: src/org.vaxp.vstore.desktop.in:3
 msgid "Software"
 msgstr "Ohjelmistot"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:8
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:8
 msgid "Install and update apps"
 msgstr "Asenna ja päivitä sovellukset"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:10
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:10
 msgid ""
 "Software allows you to find and install new apps and system extensions and "
 "remove existing installed apps."
@@ -37,7 +37,7 @@ msgstr ""
 "Ohjelmistot mahdollistaa uusien sovellusten sekä järjestelmälaajennusten "
 "löytämisen ja asennuksen sekä nykyisten sovellusten poistamisen."
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:14
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:14
 msgid ""
 "Software showcases featured and popular apps with useful descriptions and "
 "multiple screenshots per app. Apps can be found either through browsing the "
@@ -48,30 +48,30 @@ msgstr ""
 "kuvauksen kera. Sovellukset ovat löydettävissä eri luokkia selaamalla tai "
 "nimellä etsimällä. Voit myös päivittää järjestelmän offline-päivityksenä."
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:25
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:25
 msgid "Overview panel"
 msgstr "Yhteenvetosivu"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:29
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:33
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:29
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:33
 msgid "Details panel"
 msgstr "Tietosivu"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:37
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:37
 msgid "Installed panel"
 msgstr "Asennussivu"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:41
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:45
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:41
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:45
 msgid "Updates panel"
 msgstr "Päivityssivu"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:49
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:49
 msgid "The update details"
 msgstr "Päivityksen tiedot"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:2437
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:2437
 #: src/gs-application.c:264
 msgid "The GNOME Project"
 msgstr "Gnome-projekti"
@@ -5332,11 +5332,11 @@ msgstr "EOS-päivityspalvelu ei voinut noutaa ja toteuttaa päivitystä."
 msgid "Web App"
 msgstr "Web App -sovellus"
 
-#: plugins/epiphany/org.gnome.Software.Plugin.Epiphany.metainfo.xml.in:6
+#: plugins/epiphany/org.vaxp.vstore.Plugin.Epiphany.metainfo.xml.in:6
 msgid "Web Apps Support"
 msgstr "Verkkosovellusten tuki"
 
-#: plugins/epiphany/org.gnome.Software.Plugin.Epiphany.metainfo.xml.in:7
+#: plugins/epiphany/org.vaxp.vstore.Plugin.Epiphany.metainfo.xml.in:7
 msgid "Run popular web applications in a browser"
 msgstr "Suorita suosittuja verkkosovelluksia selaimessa"
 
@@ -5354,11 +5354,11 @@ msgstr ""
 "Päivitä saadaksesi uusimmat ominaisuudet ja suorituskyky- sekä "
 "vakausparannukset."
 
-#: plugins/flatpak/org.gnome.Software.Plugin.Flatpak.metainfo.xml.in:6
+#: plugins/flatpak/org.vaxp.vstore.Plugin.Flatpak.metainfo.xml.in:6
 msgid "Flatpak Support"
 msgstr "Flatpak-tuki"
 
-#: plugins/flatpak/org.gnome.Software.Plugin.Flatpak.metainfo.xml.in:7
+#: plugins/flatpak/org.vaxp.vstore.Plugin.Flatpak.metainfo.xml.in:7
 msgid "Flatpak is a framework for desktop apps on Linux"
 msgstr "Flatpak on viitekehys Linux-työpöytäsovelluksille"
 
@@ -5763,11 +5763,11 @@ msgstr "Laiteohjelmiston päivitystä ei voitu toteuttaa: "
 msgid "Firmware"
 msgstr "Firmware-laiteohjelmisto"
 
-#: plugins/fwupd/org.gnome.Software.Plugin.Fwupd.metainfo.xml.in:6
+#: plugins/fwupd/org.vaxp.vstore.Plugin.Fwupd.metainfo.xml.in:6
 msgid "Firmware Upgrade Support"
 msgstr "Laiteohjelmistojen päivitystuki"
 
-#: plugins/fwupd/org.gnome.Software.Plugin.Fwupd.metainfo.xml.in:7
+#: plugins/fwupd/org.vaxp.vstore.Plugin.Fwupd.metainfo.xml.in:7
 msgid "Provides support for firmware upgrades"
 msgstr "Tarjoaa tuen laiteohjelmistojen (firmware) päivityksille"
 
@@ -5831,11 +5831,11 @@ msgstr "Käyttöjärjestelmä (OSTree)"
 msgid "Snap Store"
 msgstr "Snap-kauppa"
 
-#: plugins/snap/org.gnome.Software.Plugin.Snap.metainfo.xml.in:6
+#: plugins/snap/org.vaxp.vstore.Plugin.Snap.metainfo.xml.in:6
 msgid "Snap Support"
 msgstr "Snap-tuki"
 
-#: plugins/snap/org.gnome.Software.Plugin.Snap.metainfo.xml.in:7
+#: plugins/snap/org.vaxp.vstore.Plugin.Snap.metainfo.xml.in:7
 msgid "A snap is a universal Linux package"
 msgstr "Snap on yleinen Linux-paketti"
 
@@ -7111,8 +7111,8 @@ msgstr "Snap on yleinen Linux-paketti"
 #~ msgid "Unable to purchase %s: payment was declined"
 #~ msgstr "Ei voitu ostaa %s: maksusta kieltäydyttiin"
 
-#~ msgid "org.gnome.Software"
-#~ msgstr "org.gnome.Software"
+#~ msgid "org.vaxp.vstore"
+#~ msgstr "org.vaxp.vstore"
 
 #~ msgid "To continue, you need to use an Ubuntu One account."
 #~ msgstr "Jatkaaksesi sinun tulee käyttää Ubuntu One -tiliä."

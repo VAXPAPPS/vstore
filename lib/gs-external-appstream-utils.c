@@ -36,13 +36,13 @@
  * To test this code locally you will probably want to change your GSettings
  * configuration to add some external AppStream URIs:
  * ```
- * gsettings set org.gnome.software external-appstream-urls '["https://example.com/appdata.xml.gz"]'
+ * gsettings set org.vaxp.vstore external-appstream-urls '["https://example.com/appdata.xml.gz"]'
  * ```
  *
  * When you are done with development, run the following command to use the real
  * external AppStream list again:
  * ```
- * gsettings reset org.gnome.software external-appstream-urls
+ * gsettings reset org.vaxp.vstore external-appstream-urls
  * ```
  *
  * Since: 42
@@ -486,7 +486,7 @@ gs_external_appstream_refresh_async (guint64                     cache_age_secs,
 	task = g_task_new (NULL, cancellable, callback, user_data);
 	g_task_set_source_tag (task, gs_external_appstream_refresh_async);
 
-	settings = g_settings_new ("org.gnome.software");
+	settings = g_settings_new ("org.vaxp.vstore");
 	soup_session = gs_build_soup_session ();
 	appstream_urls = g_settings_get_strv (settings,
 					      "external-appstream-urls");

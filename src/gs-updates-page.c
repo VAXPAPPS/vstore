@@ -1423,7 +1423,7 @@ gs_updates_page_init (GsUpdatesPage *self)
 	gtk_widget_init_template (GTK_WIDGET (self));
 
 	self->state = GS_UPDATES_PAGE_STATE_STARTUP;
-	self->settings = g_settings_new ("org.gnome.software");
+	self->settings = g_settings_new ("org.vaxp.vstore");
 	self->desktop_settings = g_settings_new ("org.gnome.desktop.interface");
 
 	self->sizegroup_name = gtk_size_group_new (GTK_SIZE_GROUP_HORIZONTAL);

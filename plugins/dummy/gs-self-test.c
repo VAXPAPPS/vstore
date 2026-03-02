@@ -261,7 +261,7 @@ gs_plugins_dummy_updates_func (GsPluginLoader *plugin_loader)
 
 	/* get the virtual non-apps OS update */
 	app = gs_app_list_index (list, 2);
-	g_assert_cmpstr (gs_app_get_id (app), ==, "org.gnome.Software.OsUpdate");
+	g_assert_cmpstr (gs_app_get_id (app), ==, "org.vaxp.vstore.OsUpdate");
 	g_assert_cmpstr (gs_app_get_name (app), ==, "System Updates");
 	g_assert_cmpstr (gs_app_get_summary (app), ==, "General system updates, such as security or bug fixes, and performance improvements.");
 	g_assert_cmpint (gs_app_get_kind (app), ==, AS_COMPONENT_KIND_GENERIC);

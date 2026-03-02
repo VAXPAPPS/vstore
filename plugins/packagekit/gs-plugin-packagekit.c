@@ -2487,7 +2487,7 @@ gs_plugin_packagekit_prepared_update_changed_cb (GFileMonitor      *monitor,
 		return;
 
 	if (event_type == G_FILE_MONITOR_EVENT_DELETED) {
-		g_autoptr(GSettings) settings = g_settings_new ("org.gnome.software");
+		g_autoptr(GSettings) settings = g_settings_new ("org.vaxp.vstore");
 		if (g_settings_get_boolean (settings, "download-updates")) {
 			/* The prepared-update file had been removed, but the user has set
 			   to have the updates downloaded, thus prepared, thus prepare
@@ -3222,7 +3222,7 @@ gs_plugin_add_updates_historical (GsPlugin *plugin,
 		return FALSE;
 	}
 
-	settings = g_settings_new ("org.gnome.software");
+	settings = g_settings_new ("org.vaxp.vstore");
 	/* Two seconds precision */
 	is_new_result = mtime > g_settings_get_uint64 (settings, "packagekit-historical-updates-timestamp") + 2;
 	if (is_new_result)

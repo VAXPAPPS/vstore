@@ -2046,7 +2046,7 @@ gs_shell_setup (GsShell *shell, GsPluginLoader *plugin_loader, GCancellable *can
 
 	shell->cancellable = g_object_ref (cancellable);
 
-	shell->settings = g_settings_new ("org.gnome.software");
+	shell->settings = g_settings_new ("org.vaxp.vstore");
 
 	/* set up pages */
 	gs_shell_setup_pages (shell);

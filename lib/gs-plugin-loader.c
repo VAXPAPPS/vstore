@@ -2760,7 +2760,7 @@ gs_plugin_loader_init (GsPluginLoader *plugin_loader)
 						   NULL);
 	plugin_loader->file_monitors = g_ptr_array_new_with_free_func (g_object_unref);
 	plugin_loader->locations = g_ptr_array_new_with_free_func (g_free);
-	plugin_loader->settings = g_settings_new ("org.gnome.software");
+	plugin_loader->settings = g_settings_new ("org.vaxp.vstore");
 	g_signal_connect (plugin_loader->settings, "changed",
 			  G_CALLBACK (gs_plugin_loader_settings_changed_cb), plugin_loader);
 	plugin_loader->events_by_id = g_hash_table_new_full ((GHashFunc) as_utils_data_id_hash,

@@ -34,7 +34,7 @@ if get_option('external_appstream')
   )
   i18n.merge_file(
     input : out,
-    output : 'org.gnome.software.external-appstream.policy',
+    output : 'org.vaxp.vstore.external-appstream.policy',
     po_dir: join_paths(meson.project_source_root(), 'po'),
     install: true,
     install_dir: join_paths(get_option('datadir'), 'polkit-1', 'actions'),

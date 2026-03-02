@@ -278,7 +278,7 @@ gs_plugin_malcontent_init (GsPluginMalcontent *self)
 	gs_plugin_add_rule (plugin, GS_PLUGIN_RULE_RUN_AFTER, "flatpak");
 
 	/* set plugin name; it’s not a loadable plugin, but this is descriptive and harmless */
-	gs_plugin_set_appstream_id (plugin, "org.gnome.Software.Plugin.Malcontent");
+	gs_plugin_set_appstream_id (plugin, "org.vaxp.vstore.Plugin.Malcontent");
 }
 
 static void get_app_filter_cb (GObject      *source_object,

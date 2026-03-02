@@ -162,7 +162,7 @@ gs_plugins_core_generic_updates_func (GsPluginLoader *plugin_loader)
 	os_update = gs_app_list_index (result_list, 0);
 
 	/* make sure the os update is valid */
-	g_assert_cmpstr (gs_app_get_id (os_update), ==, "org.gnome.Software.OsUpdate");
+	g_assert_cmpstr (gs_app_get_id (os_update), ==, "org.vaxp.vstore.OsUpdate");
 	g_assert_cmpint (gs_app_get_kind (os_update), ==, AS_COMPONENT_KIND_GENERIC);
 	g_assert_cmpint (gs_app_get_special_kind (os_update), ==, GS_APP_SPECIAL_KIND_OS_UPDATE);
 	g_assert_true (gs_app_has_quirk (os_update, GS_APP_QUIRK_IS_PROXY));

@@ -17,13 +17,13 @@
  * [`odrs-web` repository](https://gitlab.gnome.org/Infrastructure/odrs-web/-/blob/HEAD/app_data/README.md),
  * and then get vstore to use your local review server by running:
  * ```
- * gsettings set org.gnome.software review-server 'http://127.0.0.1:5000/1.0/reviews/api'
+ * gsettings set org.vaxp.vstore review-server 'http://127.0.0.1:5000/1.0/reviews/api'
  * ```
  *
  * When you are done with development, run the following command to use the real
  * ODRS server again:
  * ```
- * gsettings reset org.gnome.software review-server
+ * gsettings reset org.vaxp.vstore review-server
  * ```
  *
  * Since: 41

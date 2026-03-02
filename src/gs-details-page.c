@@ -2815,7 +2815,7 @@ gs_details_page_init (GsDetailsPage *self)
 
 	gtk_widget_init_template (GTK_WIDGET (self));
 
-	self->settings = g_settings_new ("org.gnome.software");
+	self->settings = g_settings_new ("org.vaxp.vstore");
 	g_signal_connect_swapped (self->settings, "changed",
 				  G_CALLBACK (settings_changed_cb),
 				  self);

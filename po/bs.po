@@ -21,15 +21,15 @@ msgstr ""
 "X-Generator: Poedit 1.7.4\n"
 "X-Launchpad-Export-Date: 2015-02-15 06:20+0000\n"
 
-#: ../data/appdata/org.gnome.Software.appdata.xml.in.h:1
+#: ../data/appdata/org.vaxp.vstore.appdata.xml.in.h:1
 msgid "vstore"
 msgstr "Gnomovi programi"
 
-#: ../data/appdata/org.gnome.Software.appdata.xml.in.h:2
+#: ../data/appdata/org.vaxp.vstore.appdata.xml.in.h:2
 msgid "Application manager for GNOME"
 msgstr "GNOME aplikacijski menadžer"
 
-#: ../data/appdata/org.gnome.Software.appdata.xml.in.h:3
+#: ../data/appdata/org.vaxp.vstore.appdata.xml.in.h:3
 msgid ""
 "Software allows you to find and install new applications and system extensions and remove "
 "existing installed applications."
@@ -37,7 +37,7 @@ msgstr ""
 "Programi vam omogućavaju da nađete i instalirate nove aplikacije i sistemska proširenja i "
 "uklanjanje postojećih instaliranih aplikacija."
 
-#: ../data/appdata/org.gnome.Software.appdata.xml.in.h:4
+#: ../data/appdata/org.vaxp.vstore.appdata.xml.in.h:4
 msgid ""
 "vstore showcases featured and popular applications with useful descriptions and "
 "multiple screenshots per application. Applications can be found either through browsing "

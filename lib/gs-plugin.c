@@ -377,7 +377,7 @@ gs_plugin_get_name (GsPlugin *plugin)
  *
  * Gets the plugin AppStream ID.
  *
- * Returns: a string, e.g. `org.gnome.Software.Plugin.Epiphany`
+ * Returns: a string, e.g. `org.vaxp.vstore.Plugin.Epiphany`
  *
  * Since: 3.24
  **/
@@ -391,7 +391,7 @@ gs_plugin_get_appstream_id (GsPlugin *plugin)
 /**
  * gs_plugin_set_appstream_id:
  * @plugin: a #GsPlugin
- * @appstream_id: an appstream ID, e.g. `org.gnome.Software.Plugin.Epiphany`
+ * @appstream_id: an appstream ID, e.g. `org.vaxp.vstore.Plugin.Epiphany`
  *
  * Sets the plugin AppStream ID.
  *

@@ -169,7 +169,7 @@ execute_search (GsShellSearchProvider  *self,
 	g_application_hold (g_application_get_default ());
 	self->cancellable = g_cancellable_new ();
 
-	settings = g_settings_new ("org.gnome.software");
+	settings = g_settings_new ("org.vaxp.vstore");
 
 	query = gs_app_query_new ("keywords", terms,
 				  "refine-flags", GS_PLUGIN_REFINE_FLAGS_REQUIRE_ICON |

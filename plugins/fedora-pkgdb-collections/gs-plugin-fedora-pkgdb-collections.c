@@ -76,7 +76,7 @@ gs_plugin_fedora_pkgdb_collections_init (GsPluginFedoraPkgdbCollections *self)
 		return;
 	}
 	self->distros = g_ptr_array_new_with_free_func ((GDestroyNotify) _pkgdb_item_free);
-	self->settings = g_settings_new ("org.gnome.software");
+	self->settings = g_settings_new ("org.vaxp.vstore");
 
 	/* old name */
 	gs_plugin_add_rule (plugin, GS_PLUGIN_RULE_CONFLICTS, "fedora-distro-upgrades");

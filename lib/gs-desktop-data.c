@@ -282,17 +282,17 @@ static const GsDesktopMap map_addon_localization[] = {
 /* Please keep category name and subcategory context synchronized!!! */
 static const GsDesktopData msdata[] = {
 	/* Translators: this is a menu category */
-	{ "create", map_create, N_("Create"), "org.gnome.Software.Create", 100 },
+	{ "create", map_create, N_("Create"), "org.vaxp.vstore.Create", 100 },
 	/* Translators: this is a menu category */
-	{ "work", map_work, N_("Work"), "org.gnome.Software.Work", 90 },
+	{ "work", map_work, N_("Work"), "org.vaxp.vstore.Work", 90 },
 	/* Translators: this is a menu category */
-	{ "play", map_play, N_("Play"), "org.gnome.Software.Play", 80 },
+	{ "play", map_play, N_("Play"), "org.vaxp.vstore.Play", 80 },
 	/* Translators: this is a menu category */
-	{ "socialize", map_socialize, N_("Socialize"), "org.gnome.Software.Socialize", 70 },
+	{ "socialize", map_socialize, N_("Socialize"), "org.vaxp.vstore.Socialize", 70 },
 	/* Translators: this is a menu category */
-	{ "learn", map_learn, N_("Learn"), "org.gnome.Software.Learn", 60 },
+	{ "learn", map_learn, N_("Learn"), "org.vaxp.vstore.Learn", 60 },
 	/* Translators: this is a menu category */
-	{ "develop", map_develop, N_("Develop"), "org.gnome.Software.Develop", 50 },
+	{ "develop", map_develop, N_("Develop"), "org.vaxp.vstore.Develop", 50 },
 
 	/* Translators: this is a menu category */
 	{ "codecs", map_addon_codecs, N_("Codecs"), NULL, 10 },

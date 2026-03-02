@@ -1046,7 +1046,7 @@ gs_flatpak_add_apps_from_xremote (GsFlatpak *self,
 	}
 
 	/* do we want to filter to the default branch */
-	settings = g_settings_new ("org.gnome.software");
+	settings = g_settings_new ("org.vaxp.vstore");
 	default_branch = flatpak_remote_get_default_branch (xremote);
 	if (g_settings_get_boolean (settings, "filter-default-branch") &&
 	    default_branch != NULL) {

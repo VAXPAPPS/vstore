@@ -184,7 +184,7 @@ cdata.set('application_id', application_id)
 
 # replace @bindir@
 configure_file(
-  input : 'org.gnome.Software.service.in',
+  input : 'org.vaxp.vstore.service.in',
   output : application_id + '.service',
   install_dir: join_paths(get_option('datadir'), 'dbus-1/services'),
   configuration : cdata
@@ -249,7 +249,7 @@ if get_option('snap')
   )
 endif
 
-install_data('org.gnome.Software-search-provider.ini',
+install_data('org.vaxp.vstore-search-provider.ini',
              install_dir : 'share/gnome-shell/search-providers')
 
 if get_option('man')

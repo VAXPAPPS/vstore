@@ -132,7 +132,7 @@ gs_loading_page_load (GsLoadingPage *self)
 	 * Otherwise, set the cache age to the maximum, to only refresh if we’re
 	 * completely missing app data — otherwise, we want to start up as fast
 	 * as possible. */
-	settings = g_settings_new ("org.gnome.software");
+	settings = g_settings_new ("org.vaxp.vstore");
 	if (g_settings_get_boolean (settings, "first-run")) {
 		g_settings_set_boolean (settings, "first-run", FALSE);
 		cache_age_secs = 60 * 60 * 24;  /* 24 hours */

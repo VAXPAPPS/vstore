@@ -116,7 +116,7 @@ gs_plugin_flatpak_init (GsPluginFlatpak *self)
 	gs_plugin_add_rule (plugin, GS_PLUGIN_RULE_BETTER_THAN, "rpm-ostree");
 
 	/* set name of MetaInfo file */
-	gs_plugin_set_appstream_id (plugin, "org.gnome.Software.Plugin.Flatpak");
+	gs_plugin_set_appstream_id (plugin, "org.vaxp.vstore.Plugin.Flatpak");
 
 	/* used for self tests */
 	self->destdir_for_tests = g_getenv ("GS_SELF_TEST_FLATPAK_DATADIR");
@@ -153,7 +153,7 @@ gs_plugin_flatpak_purge_timeout_cb (gpointer user_data)
 {
 	GsPluginFlatpak *self = user_data;
 	if (gs_plugin_get_enabled (GS_PLUGIN (self))) {
-		g_autoptr(GSettings) settings = g_settings_new ("org.gnome.software");
+		g_autoptr(GSettings) settings = g_settings_new ("org.vaxp.vstore");
 		gint64 current_time = g_get_real_time () / G_USEC_PER_SEC;
 		if ((current_time / (60 * 60 * 24)) != (g_settings_get_int64 (settings, "flatpak-purge-timestamp") / (60 * 60 * 24))) {
 			g_autoptr(GPtrArray) flatpaks = g_ptr_array_new_with_free_func (g_object_unref);
@@ -1468,7 +1468,7 @@ gs_plugin_flatpak_ensure_scope (GsPlugin *plugin,
 	GsPluginFlatpak *self = GS_PLUGIN_FLATPAK (plugin);
 
 	if (gs_app_get_scope (app) == AS_COMPONENT_SCOPE_UNKNOWN) {
-		g_autoptr(GSettings) settings = g_settings_new ("org.gnome.software");
+		g_autoptr(GSettings) settings = g_settings_new ("org.vaxp.vstore");
 
 		/* get the new GsFlatpak for handling of local files */
 		gs_app_set_scope (app, g_settings_get_boolean (settings, "install-bundles-system-wide") ?

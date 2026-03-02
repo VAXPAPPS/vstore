@@ -18,21 +18,21 @@ msgstr ""
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4;\n"
 
-#: ../data/appdata/org.gnome.Software.appdata.xml.in.h:1
+#: ../data/appdata/org.vaxp.vstore.appdata.xml.in.h:1
 msgid "vstore"
 msgstr "Bogearraí GNOME"
 
-#: ../data/appdata/org.gnome.Software.appdata.xml.in.h:2
+#: ../data/appdata/org.vaxp.vstore.appdata.xml.in.h:2
 msgid "Application manager for GNOME"
 msgstr ""
 
-#: ../data/appdata/org.gnome.Software.appdata.xml.in.h:3
+#: ../data/appdata/org.vaxp.vstore.appdata.xml.in.h:3
 msgid ""
 "Software allows you to find and install new applications and system "
 "extensions and remove existing installed applications."
 msgstr ""
 
-#: ../data/appdata/org.gnome.Software.appdata.xml.in.h:4
+#: ../data/appdata/org.vaxp.vstore.appdata.xml.in.h:4
 msgid ""
 "vstore showcases featured and popular applications with useful "
 "descriptions and multiple screenshots per application. Applications can be "

@@ -24,16 +24,16 @@ msgstr ""
 "X-DamnedLies-Scope: partial\n"
 "X-Project-Style: gnome\n"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:7 src/gs-shell.ui:21
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:7 src/gs-shell.ui:21
 #: src/org.vaxp.vstore.desktop.in:3
 msgid "Software"
 msgstr "Programaro"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:8
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:8
 msgid "Install and update apps"
 msgstr "Instali kaj ĝisdatigi aplikaĵojn"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:10
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:10
 #, fuzzy
 #| msgid ""
 #| "Software allows you to find and install new applications and system "
@@ -45,7 +45,7 @@ msgstr ""
 "Programaro permesas trovi kaj instali novajn aplikaĵojn kaj sistemajn "
 "etendaĵojn, kaj forigi ekzistantajn instalitajn aplikaĵojn."
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:14
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:14
 msgid ""
 "Software showcases featured and popular apps with useful descriptions and "
 "multiple screenshots per app. Apps can be found either through browsing the "
@@ -57,29 +57,29 @@ msgstr ""
 "la listo de kategorioj aŭ serĉante. Ĝi ankaŭ permesas al vi ĝisdatigi vian "
 "sistemon per eksterreta ĝisdatigo."
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:25
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:25
 msgid "Overview panel"
 msgstr "Superrigarda panelo"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:29
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:33
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:29
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:33
 msgid "Details panel"
 msgstr "Panelo de detaloj"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:37
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:37
 msgid "Installed panel"
 msgstr "Panelo de instalitaj aplikaĵoj"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:41
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:45
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:41
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:45
 msgid "Updates panel"
 msgstr "Panelo de ĝisdatigoj"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:49
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:49
 msgid "The update details"
 msgstr "La detaloj de la ĝisdatigo"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:2378
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:2378
 #: src/gs-application.c:264
 msgid "The GNOME Project"
 msgstr "La GNOME-projekto"
@@ -5609,11 +5609,11 @@ msgstr "EOS-ĝisdatigoservo ne povis akiri kaj apliki la ĝisdatigon."
 msgid "Web App"
 msgstr "Reteja aplikaĵo"
 
-#: plugins/epiphany/org.gnome.Software.Plugin.Epiphany.metainfo.xml.in:6
+#: plugins/epiphany/org.vaxp.vstore.Plugin.Epiphany.metainfo.xml.in:6
 msgid "Web Apps Support"
 msgstr "Retaplikaĵa subteno"
 
-#: plugins/epiphany/org.gnome.Software.Plugin.Epiphany.metainfo.xml.in:7
+#: plugins/epiphany/org.vaxp.vstore.Plugin.Epiphany.metainfo.xml.in:7
 msgid "Run popular web applications in a browser"
 msgstr "Ruli popularajn retaplikaĵojn en foliumilo"
 
@@ -5630,11 +5630,11 @@ msgstr ""
 "Altgradigi por la plej freŝdataj funkcioj, kaj rendimentaj kaj stabilecaj "
 "plibonigoj."
 
-#: plugins/flatpak/org.gnome.Software.Plugin.Flatpak.metainfo.xml.in:6
+#: plugins/flatpak/org.vaxp.vstore.Plugin.Flatpak.metainfo.xml.in:6
 msgid "Flatpak Support"
 msgstr "Flatpak-subteno"
 
-#: plugins/flatpak/org.gnome.Software.Plugin.Flatpak.metainfo.xml.in:7
+#: plugins/flatpak/org.vaxp.vstore.Plugin.Flatpak.metainfo.xml.in:7
 #, fuzzy
 #| msgid "Flatpak is a framework for desktop applications on Linux"
 msgid "Flatpak is a framework for desktop apps on Linux"
@@ -6077,11 +6077,11 @@ msgstr "Mikroprogramo-ĝisdatigo ne povis esti aplikata:"
 msgid "Firmware"
 msgstr "Mikroprogramo"
 
-#: plugins/fwupd/org.gnome.Software.Plugin.Fwupd.metainfo.xml.in:6
+#: plugins/fwupd/org.vaxp.vstore.Plugin.Fwupd.metainfo.xml.in:6
 msgid "Firmware Upgrade Support"
 msgstr "Subteno por mikroprograma ĝisdatigo"
 
-#: plugins/fwupd/org.gnome.Software.Plugin.Fwupd.metainfo.xml.in:7
+#: plugins/fwupd/org.vaxp.vstore.Plugin.Fwupd.metainfo.xml.in:7
 msgid "Provides support for firmware upgrades"
 msgstr "Provizas subtenon por mikroprogramaj ĝisdatigoj"
 
@@ -6143,10 +6143,10 @@ msgstr "Operaciumo (OSTree)"
 msgid "Snap Store"
 msgstr "Snap-butiko"
 
-#: plugins/snap/org.gnome.Software.Plugin.Snap.metainfo.xml.in:6
+#: plugins/snap/org.vaxp.vstore.Plugin.Snap.metainfo.xml.in:6
 msgid "Snap Support"
 msgstr "Snap-subteno"
 
-#: plugins/snap/org.gnome.Software.Plugin.Snap.metainfo.xml.in:7
+#: plugins/snap/org.vaxp.vstore.Plugin.Snap.metainfo.xml.in:7
 msgid "A snap is a universal Linux package"
 msgstr "Snapo estas universala Linuksa pakaĵo"

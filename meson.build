@@ -18,7 +18,7 @@ endif
 
 conf.set_quoted('BUILD_PROFILE', build_profile)
 
-application_id = 'org.gnome.vstore' + build_profile
+application_id = 'org.vaxp.vstore' + build_profile
 conf.set_quoted('APPLICATION_ID', application_id)
 
 # this refers to the vstore plugin API version

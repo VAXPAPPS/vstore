@@ -220,7 +220,7 @@ gs_app_notify_unavailable (GsApp *app, GtkWindow *parent)
 	}
 
 	/* check if the user has already dismissed */
-	settings = g_settings_new ("org.gnome.software");
+	settings = g_settings_new ("org.vaxp.vstore");
 	if (!g_settings_get_boolean (settings, "prompt-for-nonfree"))
 		return GTK_RESPONSE_OK;
 

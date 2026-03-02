@@ -19,18 +19,18 @@ msgstr ""
 "X-Generator: Poedit 3.0.1\n"
 "X-Poedit-Bookmarks: -1,-1,-1,-1,-1,-1,-1,-1,281,-1\n"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:7 src/gs-shell.ui:21
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:7 src/gs-shell.ui:21
 #: src/org.vaxp.vstore.desktop.in:3
 msgid "Software"
 msgstr "सफ्टवेयर"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:8
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:8
 #, fuzzy
 #| msgid "Installed Updates"
 msgid "Install and update apps"
 msgstr "अद्यावधिक (_U)"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:10
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:10
 msgid ""
 "Software allows you to find and install new applications and system extensions and "
 "remove existing installed applications."
@@ -38,7 +38,7 @@ msgstr ""
 "सफ्टवेयरले तपाईंलाई नयाँ अनुप्रयोगहरू र प्रणाली एक्सटेन्सनहरू फेला पार्न र स्थापना गर्न र अवस्थित स्थापना "
 "गरिएका अनुप्रयोगहरू हटाउन अनुमति दिन्छ।"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:14
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:14
 msgid ""
 "Software showcases featured and popular applications with useful descriptions and "
 "multiple screenshots per application. Applications can be found either through browsing "
@@ -49,29 +49,29 @@ msgstr ""
 "प्रदर्शन गर्दछ। अनुप्रयोगहरू श्रेणीहरूको सूची ब्राउज गरेर वा खोजी गरेर फेला पार्न सकिन्छ। यसले तपाईंलाई "
 "अफलाइन अपडेट प्रयोग गरेर तपाईंको प्रणाली अद्यावधिक गर्न अनुमति दिन्छ।"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:25
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:25
 msgid "Overview panel"
 msgstr "समिक्षा प्यानल"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:29
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:33
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:29
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:33
 msgid "Details panel"
 msgstr "विस्तृत विवरणहरू"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:37
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:37
 msgid "Installed panel"
 msgstr "स्थापित प्यानल"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:41
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:45
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:41
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:45
 msgid "Updates panel"
 msgstr "अपडेट प्यानल"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:49
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:49
 msgid "The update details"
 msgstr "अद्यावधिक विवरण"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:1980 src/gs-application.c:256
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:1980 src/gs-application.c:256
 msgid "The GNOME Project"
 msgstr "जिनोम परियोजना"
 
@@ -4699,12 +4699,12 @@ msgstr ""
 msgid "GNOME Web"
 msgstr "जिनोम वेब"
 
-#: plugins/epiphany/org.gnome.Software.Plugin.Epiphany.metainfo.xml.in:6
+#: plugins/epiphany/org.vaxp.vstore.Plugin.Epiphany.metainfo.xml.in:6
 #, fuzzy
 msgid "Web Apps Support"
 msgstr "वेभ"
 
-#: plugins/epiphany/org.gnome.Software.Plugin.Epiphany.metainfo.xml.in:7
+#: plugins/epiphany/org.vaxp.vstore.Plugin.Epiphany.metainfo.xml.in:7
 msgid "Run popular web applications in a browser"
 msgstr ""
 
@@ -4718,11 +4718,11 @@ msgstr "स्तर बृद्वि जानकारी डाउनलो
 msgid "Upgrade for the latest features, performance and stability improvements."
 msgstr ""
 
-#: plugins/flatpak/org.gnome.Software.Plugin.Flatpak.metainfo.xml.in:6
+#: plugins/flatpak/org.vaxp.vstore.Plugin.Flatpak.metainfo.xml.in:6
 msgid "Flatpak Support"
 msgstr "फ्ल्याटपाक समर्थन"
 
-#: plugins/flatpak/org.gnome.Software.Plugin.Flatpak.metainfo.xml.in:7
+#: plugins/flatpak/org.vaxp.vstore.Plugin.Flatpak.metainfo.xml.in:7
 msgid "Flatpak is a framework for desktop applications on Linux"
 msgstr ""
 
@@ -5037,11 +5037,11 @@ msgstr "%s USB प्राप्तकर्ता अद्यावधिक"
 msgid "Firmware"
 msgstr "फर्मवेयर"
 
-#: plugins/fwupd/org.gnome.Software.Plugin.Fwupd.metainfo.xml.in:6
+#: plugins/fwupd/org.vaxp.vstore.Plugin.Fwupd.metainfo.xml.in:6
 msgid "Firmware Upgrade Support"
 msgstr "फर्मवेयर स्तरोन्नति समर्थन"
 
-#: plugins/fwupd/org.gnome.Software.Plugin.Fwupd.metainfo.xml.in:7
+#: plugins/fwupd/org.vaxp.vstore.Plugin.Fwupd.metainfo.xml.in:7
 #, fuzzy
 msgid "Provides support for firmware upgrades"
 msgstr "पर्ल प्लगइनका लागि यो प्लगइनले समर्थन प्रदान गर्छ"
@@ -5095,11 +5095,11 @@ msgstr "सञ्चालन प्रणाली (OSTree)"
 msgid "Snap Store"
 msgstr "स्न्याप स्टोर"
 
-#: plugins/snap/org.gnome.Software.Plugin.Snap.metainfo.xml.in:6
+#: plugins/snap/org.vaxp.vstore.Plugin.Snap.metainfo.xml.in:6
 msgid "Snap Support"
 msgstr "स्न्याप स्टोर समर्थन गर्नुहोस्"
 
-#: plugins/snap/org.gnome.Software.Plugin.Snap.metainfo.xml.in:7
+#: plugins/snap/org.vaxp.vstore.Plugin.Snap.metainfo.xml.in:7
 msgid "A snap is a universal Linux package"
 msgstr ""
 
@@ -5775,8 +5775,8 @@ msgstr ""
 #~ msgid "Restart & _Install"
 #~ msgstr "पुन शुरु र स्थापना गर्नुहोस्"
 
-#~ msgid "org.gnome.Software"
-#~ msgstr "org.gnome.Software"
+#~ msgid "org.vaxp.vstore"
+#~ msgstr "org.vaxp.vstore"
 
 #~ msgid "Banner Designer"
 #~ msgstr "ब्यानर डिजाइनर"

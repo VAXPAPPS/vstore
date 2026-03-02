@@ -108,7 +108,7 @@ create_fake_desktop_file (const char *app_id)
 	g_autofree char *icon_path = NULL;
 
 	/* Use an icon we already have locally */
-	icon_path = gs_test_get_filename (TESTDATADIR, "icons/hicolor/scalable/org.gnome.Software.svg");
+	icon_path = gs_test_get_filename (TESTDATADIR, "icons/hicolor/scalable/org.vaxp.vstore.svg");
 	g_assert (icon_path != NULL);
 
 	/* Use true instead of epiphany in Exec and TryExec; otherwise
@@ -151,7 +151,7 @@ gs_plugins_epiphany_installed_func (GsPluginLoader *plugin_loader)
 	g_autoptr(GsAppList) list = NULL;
 	GsApp *app;
 	const char *app_id = "org.gnome.Epiphany.WebApp_e9d0e1e4b0a10856aa3b38d9eb4375de4070d043";
-	const char *metainfo_app_id = "org.gnome.Software.WebApp_e636aa5f2069f6e9c02deccc7b65f43da7985e32.desktop";
+	const char *metainfo_app_id = "org.vaxp.vstore.WebApp_e636aa5f2069f6e9c02deccc7b65f43da7985e32.desktop";
 	const char *launchable_app_id;
 	g_autofree char *app_id_desktop = NULL;
 	g_autofree char *desktop_path = NULL;

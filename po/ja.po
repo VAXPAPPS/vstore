@@ -24,15 +24,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:7
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:7
 msgid "vstore"
 msgstr "GNOME ソフトウェア"
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:8
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:8
 msgid "Application manager for GNOME"
 msgstr "GNOME 用アプリケーションマネージャー"
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:10
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:10
 msgid ""
 "Software allows you to find and install new applications and system "
 "extensions and remove existing installed applications."
@@ -40,7 +40,7 @@ msgstr ""
 "GNOME ソフトウェアでは、新しいアプリケーションやシステム拡張の検索、インス"
 "トールができます。また、インストール済みアプリケーションの削除も可能です。"
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:14
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:14
 msgid ""
 "Software showcases featured and popular applications with useful "
 "descriptions and multiple screenshots per application. Applications can be "
@@ -52,29 +52,29 @@ msgstr ""
 "お探しのアプリケーションを探すのに適した、カテゴリーリストや検索機能も備えて"
 "います。また、オフラインアップデートによるシステムの更新も可能です。"
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:25
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:25
 msgid "Overview panel"
 msgstr "概要パネル"
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:29
-#: data/appdata/org.gnome.Software.appdata.xml.in:33
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:29
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:33
 msgid "Details panel"
 msgstr "詳細パネル"
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:37
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:37
 msgid "Installed panel"
 msgstr "インストール済みパネル"
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:41
-#: data/appdata/org.gnome.Software.appdata.xml.in:45
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:41
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:45
 msgid "Updates panel"
 msgstr "アップデートパネル"
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:49
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:49
 msgid "The update details"
 msgstr "アップデートの詳細"
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:1862
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:1862
 msgid "The GNOME Project"
 msgstr "The GNOME Project"
 
@@ -4699,11 +4699,11 @@ msgid ""
 "Upgrade for the latest features, performance and stability improvements."
 msgstr "更新して最新の機能、性能、安定性の改善を"
 
-#: plugins/flatpak/org.gnome.Software.Plugin.Flatpak.metainfo.xml.in:6
+#: plugins/flatpak/org.vaxp.vstore.Plugin.Flatpak.metainfo.xml.in:6
 msgid "Flatpak Support"
 msgstr "Flatpak サポート"
 
-#: plugins/flatpak/org.gnome.Software.Plugin.Flatpak.metainfo.xml.in:7
+#: plugins/flatpak/org.vaxp.vstore.Plugin.Flatpak.metainfo.xml.in:7
 msgid "Flatpak is a framework for desktop applications on Linux"
 msgstr ""
 "Flatpak は Linux 上のデスクトップアプリケーション向けフレームワークです"
@@ -4887,11 +4887,11 @@ msgstr "ファームウェアアップデートのメタデータをダウンロ
 msgid "Firmware"
 msgstr "ファームウェア"
 
-#: plugins/fwupd/org.gnome.Software.Plugin.Fwupd.metainfo.xml.in:6
+#: plugins/fwupd/org.vaxp.vstore.Plugin.Fwupd.metainfo.xml.in:6
 msgid "Firmware Upgrade Support"
 msgstr "ファームウェアアップグレードサポート"
 
-#: plugins/fwupd/org.gnome.Software.Plugin.Fwupd.metainfo.xml.in:7
+#: plugins/fwupd/org.vaxp.vstore.Plugin.Fwupd.metainfo.xml.in:7
 msgid "Provides support for firmware upgrades"
 msgstr "ファームウェアのアップグレード機能を提供します"
 
@@ -4951,11 +4951,11 @@ msgstr "オペレーティングシステム (OSTree)"
 msgid "Snap Store"
 msgstr "Snap ストア"
 
-#: plugins/snap/org.gnome.Software.Plugin.Snap.metainfo.xml.in:6
+#: plugins/snap/org.vaxp.vstore.Plugin.Snap.metainfo.xml.in:6
 msgid "Snap Support"
 msgstr "Snap サポート"
 
-#: plugins/snap/org.gnome.Software.Plugin.Snap.metainfo.xml.in:7
+#: plugins/snap/org.vaxp.vstore.Plugin.Snap.metainfo.xml.in:7
 msgid "A snap is a universal Linux package"
 msgstr "Snap は汎用的な Linux パッケージです"
 

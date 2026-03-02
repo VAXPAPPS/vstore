@@ -18,15 +18,15 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0\n"
 "X-Generator: Gtranslator 40.0\n"
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:7
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:7
 msgid "vstore"
 msgstr "Softvér prostredia GNOME"
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:8
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:8
 msgid "Application manager for GNOME"
 msgstr "Správca aplikácií prostredia GNOME"
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:10
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:10
 msgid ""
 "Software allows you to find and install new applications and system "
 "extensions and remove existing installed applications."
@@ -34,7 +34,7 @@ msgstr ""
 "Aplikácia Softvér vám umožňuje nájsť a nainštalovať nové aplikácie a "
 "systémové rozšírenia a odstrániť existujúce nainštalované aplikácie."
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:14
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:14
 msgid ""
 "vstore showcases featured and popular applications with useful "
 "descriptions and multiple screenshots per application. Applications can be "
@@ -47,30 +47,30 @@ msgstr ""
 "vyhľadávača. Tiež umožňuje aktualizovať váš systém za pomoci aktualizácií "
 "nevyužívajúcich pripojenie k sieti."
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:25
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:25
 msgid "Overview panel"
 msgstr "Panel s náhľadom"
 
 # GtkLabel
-#: data/appdata/org.gnome.Software.appdata.xml.in:29
-#: data/appdata/org.gnome.Software.appdata.xml.in:33
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:29
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:33
 msgid "Details panel"
 msgstr "Panel s podrobnosťami"
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:37
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:37
 msgid "Installed panel"
 msgstr "Panel s nainštalovaným softvérom"
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:41
-#: data/appdata/org.gnome.Software.appdata.xml.in:45
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:41
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:45
 msgid "Updates panel"
 msgstr "Panel s aktualizáciami"
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:49
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:49
 msgid "The update details"
 msgstr "Podrobnosti o aktualizácii"
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:1862
+#: data/appdata/org.vaxp.vstore.appdata.xml.in:1862
 msgid "The GNOME Project"
 msgstr "Projekt GNOME"
 
@@ -5059,11 +5059,11 @@ msgid ""
 msgstr ""
 "Aktualizácia prinášajúca najnovšie funkcie, vylepšenia výkonu a stability."
 
-#: plugins/flatpak/org.gnome.Software.Plugin.Flatpak.metainfo.xml.in:6
+#: plugins/flatpak/org.vaxp.vstore.Plugin.Flatpak.metainfo.xml.in:6
 msgid "Flatpak Support"
 msgstr "Podpora nástroja Flatpak"
 
-#: plugins/flatpak/org.gnome.Software.Plugin.Flatpak.metainfo.xml.in:7
+#: plugins/flatpak/org.vaxp.vstore.Plugin.Flatpak.metainfo.xml.in:7
 msgid "Flatpak is a framework for desktop applications on Linux"
 msgstr "Flatpak je architektúra počítačových aplikácií pre systém Linux"
 
@@ -5229,11 +5229,11 @@ msgstr "Preberajú sa metaúdaje aktualizácie firmvéru…"
 msgid "Firmware"
 msgstr "Firmvér"
 
-#: plugins/fwupd/org.gnome.Software.Plugin.Fwupd.metainfo.xml.in:6
+#: plugins/fwupd/org.vaxp.vstore.Plugin.Fwupd.metainfo.xml.in:6
 msgid "Firmware Upgrade Support"
 msgstr "Podpora aktualizácie firmvéru"
 
-#: plugins/fwupd/org.gnome.Software.Plugin.Fwupd.metainfo.xml.in:7
+#: plugins/fwupd/org.vaxp.vstore.Plugin.Fwupd.metainfo.xml.in:7
 msgid "Provides support for firmware upgrades"
 msgstr "Poskytuje podporu aktualizácií firmvéru"
 
@@ -5253,11 +5253,11 @@ msgstr "Aktualizácie operačného systému nie sú dostupné"
 msgid "Snap Store"
 msgstr "Obchod Snap Store"
 
-#: plugins/snap/org.gnome.Software.Plugin.Snap.metainfo.xml.in:6
+#: plugins/snap/org.vaxp.vstore.Plugin.Snap.metainfo.xml.in:6
 msgid "Snap Support"
 msgstr "Podpora balíkov Snap"
 
-#: plugins/snap/org.gnome.Software.Plugin.Snap.metainfo.xml.in:7
+#: plugins/snap/org.vaxp.vstore.Plugin.Snap.metainfo.xml.in:7
 msgid "A snap is a universal Linux package"
 msgstr "Snap je univerzálnym balíkom pre systém Linux"
 
@@ -6176,8 +6176,8 @@ msgstr "Snap je univerzálnym balíkom pre systém Linux"
 #~ msgid "Restart & _Install"
 #~ msgstr "Reštartovať a _inštalovať"
 
-#~ msgid "org.gnome.Software"
-#~ msgstr "org.gnome.Software"
+#~ msgid "org.vaxp.vstore"
+#~ msgstr "org.vaxp.vstore"
 
 #~ msgid "Design the featured banners for vstore"
 #~ msgstr ""

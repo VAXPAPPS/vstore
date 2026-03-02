@@ -85,7 +85,7 @@ gs_plugin_appstream_init (GsPluginAppstream *self)
 	gs_plugin_add_rule (GS_PLUGIN (self), GS_PLUGIN_RULE_RUN_AFTER, "dpkg");
 
 	/* require settings */
-	self->settings = g_settings_new ("org.gnome.software");
+	self->settings = g_settings_new ("org.vaxp.vstore");
 
 	/* Can be NULL when running the self tests */
 	if (application) {

@@ -685,7 +685,7 @@ gs_category_page_load_category (GsCategoryPage *self)
 	 *
 	 * The list of featured apps has to be loaded separately (we can’t just
 	 * query each app for its featured status) since it’s provided by a
-	 * separate appstream file (org.gnome.Software.Featured.xml) and hence
+	 * separate appstream file (org.vaxp.vstore.Featured.xml) and hence
 	 * produces separate `GsApp` instances with stub data. In particular,
 	 * they don’t have enough category data to match the main category
 	 * query.

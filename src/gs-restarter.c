@@ -12,7 +12,7 @@
 #include <stdlib.h>
 
 #define GS_BINARY_NAME			"vstore"
-#define GS_DBUS_BUS_NAME		"org.gnome.Software"
+#define GS_DBUS_BUS_NAME		"org.vaxp.vstore"
 #define GS_DBUS_OBJECT_PATH		"/org/gnome/Software"
 #define GS_DBUS_INTERFACE_NAME		"org.gtk.Actions"
 

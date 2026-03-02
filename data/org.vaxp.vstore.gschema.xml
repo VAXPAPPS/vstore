@@ -1,5 +1,5 @@
 <schemalist>
-  <schema id="org.gnome.software" path="/org/gnome/software/" gettext-domain="vstore">
+  <schema id="org.vaxp.vstore" path="/org/gnome/software/" gettext-domain="vstore">
     <key name="compatible-projects" type="as">
       <default>['GNOME', 'KDE', 'XFCE']</default>
       <summary>A list of compatible projects</summary>
@@ -150,9 +150,9 @@
       <default>0</default>
       <summary>The timestamp of the last received historical updates.</summary>
     </key>
-    <child name="auth" schema="org.gnome.software.auth"/>
+    <child name="auth" schema="org.vaxp.vstore.auth"/>
   </schema>
-  <schema id="org.gnome.software.auth" gettext-domain="vstore">
+  <schema id="org.vaxp.vstore.auth" gettext-domain="vstore">
     <key name="account-id" type="s">
       <default>''</default>
       <summary>A string storing the gnome-online-account id used to login</summary>

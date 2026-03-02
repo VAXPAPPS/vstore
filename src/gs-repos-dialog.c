@@ -836,7 +836,7 @@ gs_repos_dialog_init (GsReposDialog *dialog)
 	gtk_widget_init_template (GTK_WIDGET (dialog));
 
 	dialog->cancellable = g_cancellable_new ();
-	dialog->settings = g_settings_new ("org.gnome.software");
+	dialog->settings = g_settings_new ("org.vaxp.vstore");
 	dialog->sections = g_hash_table_new_full (g_str_hash, g_str_equal, g_free, NULL);
 
 	os_name = get_os_name ();

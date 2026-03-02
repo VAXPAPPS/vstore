@@ -20,16 +20,16 @@ msgstr ""
 "X-Launchpad-Export-Date: 2017-03-15 15:32+0000\n"
 "X-Generator: Poedit 3.1.1\n"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:7 src/gs-shell.ui:21
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:7 src/gs-shell.ui:21
 #: src/org.vaxp.vstore.desktop.in:3
 msgid "Software"
 msgstr "Softver"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:8
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:8
 msgid "Install and update apps"
 msgstr "Instalirajte i nadopunite aplikacije"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:10
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:10
 msgid ""
 "Software allows you to find and install new applications and system "
 "extensions and remove existing installed applications."
@@ -37,7 +37,7 @@ msgstr ""
 "Softver vam omogućuje pretraživanje i instalaciju novih aplikacija "
 "proširenja sustava i uklanjanje postojećih instaliranih aplikacija."
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:14
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:14
 msgid ""
 "Software showcases featured and popular applications with useful "
 "descriptions and multiple screenshots per application. Applications can be "
@@ -49,29 +49,29 @@ msgstr ""
 "kategorija ili pretraživanjem. Isto tako vam omogućuje nadopunu vašeg "
 "sustava kada nemate pristup Internetu."
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:25
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:25
 msgid "Overview panel"
 msgstr "Panel prikaza"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:29
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:33
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:29
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:33
 msgid "Details panel"
 msgstr "Panel pojedinosti"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:37
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:37
 msgid "Installed panel"
 msgstr "Panel instaliranog"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:41
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:45
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:41
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:45
 msgid "Updates panel"
 msgstr "Panel nadopuna"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:49
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:49
 msgid "The update details"
 msgstr "Pojedinosti nadopune"
 
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:2076
+#: data/metainfo/org.vaxp.vstore.metainfo.xml.in:2076
 #: src/gs-application.c:256
 msgid "The GNOME Project"
 msgstr "GNOME projekt"
@@ -4906,11 +4906,11 @@ msgstr "EOS usluga nadopune ne može preuzeti i primijeniti nadopunu."
 msgid "Web App"
 msgstr "Web aplikacija"
 
-#: plugins/epiphany/org.gnome.Software.Plugin.Epiphany.metainfo.xml.in:6
+#: plugins/epiphany/org.vaxp.vstore.Plugin.Epiphany.metainfo.xml.in:6
 msgid "Web Apps Support"
 msgstr "Podrška web aplikacija"
 
-#: plugins/epiphany/org.gnome.Software.Plugin.Epiphany.metainfo.xml.in:7
+#: plugins/epiphany/org.vaxp.vstore.Plugin.Epiphany.metainfo.xml.in:7
 msgid "Run popular web applications in a browser"
 msgstr "Pokrenite popularne web aplikacije u pregledniku"
 
@@ -4927,11 +4927,11 @@ msgstr ""
 "Nadogradite kako bi imali najnovije značajke, performanse i poboljšanja "
 "sustava."
 
-#: plugins/flatpak/org.gnome.Software.Plugin.Flatpak.metainfo.xml.in:6
+#: plugins/flatpak/org.vaxp.vstore.Plugin.Flatpak.metainfo.xml.in:6
 msgid "Flatpak Support"
 msgstr "Flatpak podrška"
 
-#: plugins/flatpak/org.gnome.Software.Plugin.Flatpak.metainfo.xml.in:7
+#: plugins/flatpak/org.vaxp.vstore.Plugin.Flatpak.metainfo.xml.in:7
 msgid "Flatpak is a framework for desktop applications on Linux"
 msgstr "Flatpak je radni okvir za aplikacije radne površine na Linuxu"
 
@@ -5287,11 +5287,11 @@ msgstr "%s nadopuna USB prijemnika"
 msgid "Firmware"
 msgstr "Firmver"
 
-#: plugins/fwupd/org.gnome.Software.Plugin.Fwupd.metainfo.xml.in:6
+#: plugins/fwupd/org.vaxp.vstore.Plugin.Fwupd.metainfo.xml.in:6
 msgid "Firmware Upgrade Support"
 msgstr "Podrška za nadogradnju frimvera"
 
-#: plugins/fwupd/org.gnome.Software.Plugin.Fwupd.metainfo.xml.in:7
+#: plugins/fwupd/org.vaxp.vstore.Plugin.Fwupd.metainfo.xml.in:7
 msgid "Provides support for firmware upgrades"
 msgstr "Omogućuje podršku za nadogradnju frimvera"
 
@@ -5349,11 +5349,11 @@ msgstr "Operativni sustav (OSTree)"
 msgid "Snap Store"
 msgstr "Snap trgovina"
 
-#: plugins/snap/org.gnome.Software.Plugin.Snap.metainfo.xml.in:6
+#: plugins/snap/org.vaxp.vstore.Plugin.Snap.metainfo.xml.in:6
 msgid "Snap Support"
 msgstr "Snap podrška"
 
-#: plugins/snap/org.gnome.Software.Plugin.Snap.metainfo.xml.in:7
+#: plugins/snap/org.vaxp.vstore.Plugin.Snap.metainfo.xml.in:7
 msgid "A snap is a universal Linux package"
 msgstr "Snap je univerzalan Linux paket"
 
@@ -6383,8 +6383,8 @@ msgstr "Snap je univerzalan Linux paket"
 #~ msgid "Restart & _Install"
 #~ msgstr "Ponovno pokreni i _instaliraj"
 
-#~ msgid "org.gnome.Software"
-#~ msgstr "org.gnome.Software"
+#~ msgid "org.vaxp.vstore"
+#~ msgstr "org.vaxp.vstore"
 
 #~ msgid "Getting runtime source…"
 #~ msgstr "Dobivanje izvora komponente izvršavanja…"

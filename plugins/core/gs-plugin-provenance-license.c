@@ -83,7 +83,7 @@ gs_plugin_provenance_license_changed_cb (GSettings   *settings,
 static void
 gs_plugin_provenance_license_init (GsPluginProvenanceLicense *self)
 {
-	self->settings = g_settings_new ("org.gnome.software");
+	self->settings = g_settings_new ("org.vaxp.vstore");
 	g_signal_connect (self->settings, "changed",
 			  G_CALLBACK (gs_plugin_provenance_license_changed_cb), self);
 	self->sources = gs_plugin_provenance_license_get_sources (self);

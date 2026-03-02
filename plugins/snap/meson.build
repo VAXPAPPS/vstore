@@ -14,7 +14,7 @@ shared_module(
   c_args : cargs,
   dependencies : [ plugin_libs, snap ],
 )
-metainfo = 'org.gnome.Software.Plugin.Snap.metainfo.xml'
+metainfo = 'org.vaxp.vstore.Plugin.Snap.metainfo.xml'
 
 i18n.merge_file(
   input: metainfo + '.in',
