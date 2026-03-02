@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Vstore
+Comment=Software Updates
+Icon=org.vaxp.vstore --gapplication-service
+OnlyShowIn=GNOME;Unity;
+NotShowIn=Budgie
+NoDisplay=true
