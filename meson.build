@@ -203,9 +203,7 @@ if get_option('packagekit')
   endif
 endif
 
-if get_option('eos_updater')
-  ostree = dependency('ostree-1')
-endif
+
 
 if get_option('fwupd')
   fwupd = dependency('fwupd', version : '>= 1.6.2')
@@ -216,9 +214,7 @@ if get_option('flatpak')
   ostree = dependency('ostree-1')
 endif
 
-if get_option('malcontent')
-  malcontent = dependency('malcontent-0', version: '>= 0.5.0', fallback: ['malcontent', 'libmalcontent_dep'], default_options: ['ui=disabled'])
-endif
+
 
 if get_option('rpm_ostree')
   ostree = dependency('ostree-1')
@@ -238,22 +234,7 @@ if get_option('snap')
   endif
 endif
 
-if get_option('hardcoded_foss_webapps') or get_option('hardcoded_proprietary_webapps')
-  assert(get_option('webapps'), 'webapps option must be true when hardcoded_foss_webapps/hardcoded_proprietary_webapps is')
-  pwa_list_proj = subproject('gnome-pwa-list')
-endif
-if get_option('hardcoded_foss_webapps')
-  pwa_list_foss = pwa_list_proj.get_variable('gnome_pwa_list_foss')
-  install_data(pwa_list_foss,
-    install_dir : join_paths(get_option('datadir'), 'swcatalog', 'xml'),
-  )
-endif
-if get_option('hardcoded_proprietary_webapps')
-  pwa_list_proprietary = pwa_list_proj.get_variable('gnome_pwa_list_proprietary')
-  install_data(pwa_list_proprietary,
-    install_dir : join_paths(get_option('datadir'), 'swcatalog', 'xml'),
-  )
-endif
+
 
 gnome = import('gnome')
 i18n = import('i18n')

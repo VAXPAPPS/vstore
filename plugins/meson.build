@@ -13,9 +13,7 @@ subdir('dummy')
 subdir('fedora-langpacks')
 subdir('fedora-pkgdb-collections')
 
-if get_option('eos_updater')
-  subdir('eos-updater')
-endif
+
 if get_option('flatpak')
   subdir('flatpak')
 endif
@@ -25,9 +23,7 @@ endif
 if get_option('gudev')
   subdir('modalias')
 endif
-if get_option('malcontent')
-  subdir('malcontent')
-endif
+
 if get_option('opensuse-distro-upgrade')
   subdir('opensuse-distro-upgrade')
 endif
@@ -41,6 +37,4 @@ endif
 if get_option('snap')
   subdir('snap')
 endif
-if get_option('webapps')
-  subdir('epiphany')
-endif
+
